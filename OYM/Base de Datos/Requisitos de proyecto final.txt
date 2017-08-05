@@ -1,0 +1,37 @@
+Requisitos de proyecto final
+Materia de Base de Datos para Ing. Industriales
+
+Se deben crear tres bases de datos en SQL Server, con las siguientes características
+
+1.	Cada base de datos debe tener mínimo dos tablas
+2.	Cada tabla debe tener mínimo 2 campos
+3.	Debe existir una llave primaria en al menos una de las tablas
+4.	Debe existir una relación foránea entre al menos dos tablas
+5.	Cada tabla debe contener al menos 10 registros
+
+Formato de entrega
+
+1.	Debe entregar el Script Generado para cada proyecto de base de datos (3) en documento de texto (.txt) o un documento de query (.sql), es decir, tres archivos donde queda uno contenga el script generado para cada base de datos.
+2.	Cada script generado debe tener una línea de comentario por cada integrante del equipo, que contenga: el nombre, apellido, matrícula y sección de cada integrante
+	a.	Debe asegurarse de que uso el formato de comentario, ya que, si el script no corre, automáticamente pierde los puntos
+3.	Debe subir los proyectos a un repositorio de código como GitHub, GitLab, etc.
+4.	Enviar un correo al profesor con las siguientes características
+	a.	Asunto: Proyecto de Base de Datos Sección xxxx
+	b.	Cuerpo: Saludos profesor, en el siguiente link podrá encontrar el proyecto del grupo “Team Ravia Malagueton” esperamos su pronta respuesta, gracias de antemano
+	https://github.com/xxxxxxxxxxxxxxx/zzzzzzzzzzzzzzzzz
+
+Nota: No se aceptan entregas que en el correo electrónico los archivos estén adjuntos como parte del correo electrónico, de forma automática perderán los puntos y el correo será eliminado
+
+Ver los siguientes Videos donde se explica la creación de una base de datos y el formato de entrega 
+
+Forma Hibrida, Línea de Comandos y Diagrama
+https://youtu.be/tX92VYsxxLY
+https://youtu.be/4ym-QnYFARU
+https://youtu.be/hFNH3tjXZK4
+
+Usando el Diseñador 
+https://youtu.be/GZWkTahrvkU
+https://youtu.be/4Fr1ge_U5kg
+https://youtu.be/UXx-o92hc8g
+
+
