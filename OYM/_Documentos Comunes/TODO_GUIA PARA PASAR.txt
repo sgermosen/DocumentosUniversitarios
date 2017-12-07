@@ -22,9 +22,10 @@ LINKEDIN
 5. Copiar el link de esa presentacionen un NotePad.
 
 *CAMTASIA/ACTIVE PRESENTER**********
-1. Bajar Camtasia (free Trial) o Active Presenter (free).
+1. Bajar Camtasia (free Trial) o Active Presenter (free). (puede usar el que desee)
 2. Instalarlo.
 3. Hacer un video en el cual muestre el proceso de creacion de su proyecto y explique el funcionamiento del mismo.
+   Nota: aqui hay un ejemplo: https://www.youtube.com/watch?v=ZvLjyDTwNtk&t=40s
 
 *YOUTUBE****************************
 1. Ir a https://www.youtube.com/?hl=ES
