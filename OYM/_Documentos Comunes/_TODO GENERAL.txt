@@ -81,7 +81,9 @@ PLAYSTORE
 3. Crear una cuenta (Preferiblemente Facebook).
 4. Puntear el app con 5 estrellas.
 
-
+PAYPAL
+1. Ir a https://www.paypal.me/sgermosen o https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DZZM488M6Z7HA&lc=ES&item_name=PraySoft%20Dev%20Center&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+2. Colaborar con la cantidad que nazca de su corazon, para el proyecto que estamos levantando "Un delincuente Menos"
 
 
 
