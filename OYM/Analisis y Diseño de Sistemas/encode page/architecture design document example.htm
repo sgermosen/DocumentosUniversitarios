@@ -1,0 +1,999 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Example: Software Architecture Document</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="architecture%20design%20document%20example_files/project.css">
+<meta name="Microsoft Border" content="b">
+</head>
+
+<body><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><!--msnavigation--><td valign="top">
+<p align="left"><a href="http://www.ts.mah.se/RUP/wyliecollegeexample/courseregistrationproject/artifacts/analysisndesign/pt_sad.htm"><font size="4">Related information</font></a></p>
+<b>
+<font face="Arial" size="5">
+<p align="RIGHT"><a name="top"></a>Course Registration System</p>
+</font><p align="RIGHT"><font face="Arial" size="5">Software Architecture Document<br>
+</font><font face="Arial" size="4">Version 1.0</font></p>
+<font face="Arial" size="5">
+<p align="CENTER">Revision History</p></font></b>
+
+<table border="1" cellpadding="7" cellspacing="1" width="90%">
+  <tbody><tr>
+    <td valign="TOP" width="20%"><font size="2"><b>
+    </b></font><p align="CENTER"><font size="2"><b>Date</b></font></p></td>
+    <td valign="TOP" width="10%"><font size="2"><b>
+    </b></font><p align="CENTER"><font size="2"><b>Version</b></font></p></td>
+    <td valign="TOP" width="55%"><font size="2"><b>
+    </b></font><p align="CENTER"><font size="2"><b>Description</b></font></p></td>
+    <td valign="TOP" width="15%"><font size="2"><b>
+    </b></font><p align="CENTER"><font size="2"><b>Author</b></font></p></td>
+  </tr>
+  <tr>
+    <td valign="TOP" width="20%"><font size="2">21/March/1999</font></td>
+    <td valign="TOP" width="10%"><font size="2">1.0</font></td>
+    <td valign="TOP" width="55%"><font size="2">Software Architecture Document
+    generated using Rational SoDA template and Rational Rose model.</font></td>
+    <td valign="TOP" width="15%"><font size="2">S. Johnson</font></td>
+  </tr>
+  <tr>
+    <td valign="TOP" width="20%">
+    <pre> </pre>
+    </td>
+    <td valign="TOP" width="10%">
+    <pre> </pre>
+    </td>
+    <td valign="TOP" width="55%">
+    <pre> </pre>
+    </td>
+    <td valign="TOP" width="15%">
+    <pre> </pre>
+    </td>
+  </tr>
+  <tr>
+    <td valign="TOP" width="20%">
+    <pre> </pre>
+    </td>
+    <td valign="TOP" width="10%">
+    <pre> </pre>
+    </td>
+    <td valign="TOP" width="55%">
+    <pre> </pre>
+    </td>
+    <td valign="TOP" width="15%">
+    <pre> </pre>
+    </td>
+  </tr>
+  <tr>
+    <td valign="TOP" width="20%">
+    <pre> </pre>
+    </td>
+    <td valign="TOP" width="10%">
+    <pre> </pre>
+    </td>
+    <td valign="TOP" width="55%">
+    <pre> </pre>
+    </td>
+    <td valign="TOP" width="15%">
+    <pre> </pre>
+    </td>
+  </tr>
+</tbody></table>
+<p>&nbsp;</p>
+<font face="Arial" size="5"><b>
+<p align="CENTER">&nbsp;</p>
+<p align="CENTER"><a href="#top" name="Toc">Table of Contents<img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></p></b></font>
+<blockquote>
+  <p align="left"><font size="3"><a href="#introduction">1. &nbsp; Introduction<br>
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Purpose">1.1 Purpose</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Scope">1.2 Scope</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Definitions,%20Acronyms%20and%20Abbreviations">1.3
+  Definitions, Acronyms and Abbreviations</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#References">1.4
+  References</a></font></p>
+  <font size="3"><a href="#Architectural%20Representation">2. &nbsp; Architectural Representation</a></font>
+  <p><font size="3"><a href="#Architectural%20Goals%20and%20Constraints">3. &nbsp; Architectural Goals and Constraints</a></font>
+  </p><p><font size="3"><a href="#Use-Case%20View">4. &nbsp; Use-Case View<br>
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Architecturally-Significant%20Use%20Cases">4.1
+  Architecturally-Significant Use Cases</a></font>
+  </p><p><font size="3"><a href="#Logical%20View">5. &nbsp; Logical View<br>
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Architecture+Overview+%3F+Package+and+Subsystem+Layering">5.1
+  Architecture
+    Overview &#8211; Package and Subsystem Layering</a></font>
+  </p><p><font size="3"><a href="#Process%20View">6. &nbsp; Process View<br>
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Processes">6.1 Processes</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Process%20to%20Design%20Elements">6.2
+  Process to Design
+    Elements</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Process%20Model%20to%20Design%20Model%20Dependencies">6.3
+  Process Model to
+    Design Model Dependencies</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Processes%20to%20the%20Implementation">6.4
+  Processes to the
+    Implementation</a></font>
+  </p><p><font size="3"><a href="#Deployment%20View">7. &nbsp; Deployment View<br>
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#External%20Desktop%20PC">7.1
+  External Desktop PC</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Desktop%20PC">7.2 Desktop PC</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Registration%20Server">7.3 Registration Server</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Course%20Catalog">7.4 Course Catalog</a>&nbsp;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Billing%20System">7.5 Billing System&nbsp;</a></font>
+  </p><p><font size="3"><a href="#Size%20and%20Performance">8. &nbsp; Size and Performance</a></font>
+  </p><p><font size="3"><a href="#Quality">9. &nbsp; Quality</a></font>
+</p></blockquote>
+<b><font face="Arial" size="5">
+<p align="CENTER">Software Architecture Document</p>
+</font>
+<font face="Arial">1.&nbsp; <a name="Introduction">Introduction</a> <a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font>
+</b><font size="2">
+<h4>1.1 <a name="Purpose"> Purpose</a> <b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font>
+</b></h4>
+</font>
+<ol>
+  <font size="2">
+<p>This document provides a comprehensive architectural overview of the system,
+using a number of different architectural views to depict different aspects of
+the system. It is intended to capture and convey the significant architectural
+decisions which have been made on the system.</p>
+</font></ol><font size="2">
+<h4>1.2 <a name="Scope"> Scope</a> <b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font>
+</b></h4>
+</font>
+<ol>
+  <font size="2">
+<p>This Software Architecture Document provides an architectural overview of the
+C-Registration System. The C-Registration System is being developed by Wylie
+College to support online course registration.</p>
+<p>This Document has been generated directly from the C-Registration Analysis
+&amp; Design Model implemented in Rose. The majority of the sections have been
+extracted from the Rose Model using SoDA and the Software Architecture Document
+template.</p>
+</font></ol><font size="2">
+<h4>1.3 <a name="Definitions, Acronyms and Abbreviations"> Definitions, Acronyms and Abbreviations</a>
+<b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font>
+</b></h4>
+</font>
+<ol>
+  <font size="2">
+<p>See the Glossary [4].</p>
+</font></ol><font size="2">
+<h4>1.4 <a name="References"> References</a> <b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font>
+</b></h4>
+</font>
+<ol>
+  <font size="2">
+<blockquote>
+  <p>Applicable references are:</p>
+</blockquote>
+<ol>
+  <ol>
+    <li>Course Billing Interface Specification, WC93332, 1985, Wylie College
+      Press.</li>
+    <li>Course Catalog Database Specification, WC93422, 1985, Wylie College
+      Press.</li>
+    <li>Vision Document of the C-Registration System, WyIT387, V1.0, 1998, Wylie
+      College IT.</li>
+    <li>Glossary for the C-Registration System, WyIT406, V2.0, 1999, Wylie
+      College IT.</li>
+    <li>Use Case Spec - Close Registration, WyIT403, V2.0, 1999, Wylie College
+      IT.</li>
+    <li>Use Case Spec &#8211; Login, WyIT401, V2.0, 1999, Wylie College IT.</li>
+    <li>Use Case Spec - Maintain Professor Info, WyIT407, Version 2.0, 1999,
+      Wylie College IT.</li>
+    <li>Use Case Spec - Register for Courses, WyIT402, Version 2.0, 1999, Wylie
+      College IT.</li>
+    <li>Use Case Spec - Select Courses to Teach, WyIT405, Version 2.0, 1999,
+      Wylie College IT.</li>
+    <li>Use Case Spec - Maintain Student Info, WyIT408, Version 2.0, 1999, Wylie
+      College IT.</li>
+    <li>Use Case Spec - Submit Grades, WyIT409, Version 2.0, 1999, Wylie College
+      IT.</li>
+    <li>Use Case Spec - View Report Card, WyIT410, Version 2.0, 1999, Wylie
+      College IT.</li>
+    <li>Software Development Plan for the C-Registration System, WyIT418, V1.0,
+      1999, Wylie College IT.</li>
+    <li>E1 Iteration Plan, WyIT420, V1.0, 1999, Wylie College IT.</li>
+    <li>Supplementary Specification, WyIT400, V1.0, 1999, Wylie College, IT.</li>
+    <p>&nbsp;
+  </p></ol>
+</ol>
+</font></ol>
+<font face="Arial"><b>2.&nbsp; <a name="Architectural Representation">Architectural
+Representation</a> </b></font><b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+      <ol>
+        <font size="2"> 
+        <p>This document presents the architecture as a series of views; use case 
+          view, logical view, process view and deployment view. There is no separate 
+          implementation view described in this document. These are views on an 
+          underlying Unified Modeling Language (UML) model developed using Rational 
+          Rose. </p>
+        </font>
+      </ol>
+<font face="Arial"><b>3.&nbsp; <a name="Architectural Goals and Constraints">Architectural Goals and
+  Constraints</a> </b></font><b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+<blockquote>
+    <font size="2">
+    <p>There are some key requirements and system constraints that have a
+    significant bearing on the architecture. They are:</p>
+  </font></blockquote><ol>
+<ol>
+  <font size="2">
+    <li>The existing legacy Course Catalog System at Wylie College must be
+      accessed to retrieve all course information for the current semester. The
+      C-Registration System must support the data formats and DBMS of the legacy
+      Course Catalog System [2].</li>
+    <li>The existing legacy Billing System at Wylie College must be interfaced
+      with to support billing of students. This interface is defined in the
+      Course Billing Interface Specification [1].</li>
+    <li>All student, professor, and Registrar functionality must be available
+      from both local campus PCs and remote PCs with internet dial up
+      connections.</li>
+    <li>The C-Registration System must ensure complete protection of data from
+      unauthorized access. All remote accesses are subject to user
+      identification and password control.</li>
+    <li>The C-Registration System will be implemented as a client-server system.
+      The client portion resides on PCs and the server portion must operate on
+      the Wylie College UNIX Server. [3]</li>
+    <li>All performance and loading requirements, as stipulated in the Vision
+      Document [3] and the Supplementary Specification [15], must be taken into
+      consideration as the architecture is being developed.</li></font>
+</ol>
+<p>&nbsp;
+</p></ol>
+  <font face="Arial"><b>4.&nbsp; <a name="Use-Case View">Use-Case View</a> </b></font><b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+<blockquote>
+<font size="2">
+<p>A description of the use-case view of the software architecture. The Use Case
+View is important input to the selection of the set of scenarios and/or use
+cases that are the focus of an iteration. It describes the set of scenarios
+and/or use cases that represent some significant, central functionality. It also
+describes the set of scenarios and/or use cases that have a substantial
+architectural coverage (that exercise many architectural elements) or that
+stress or illustrate a specific, delicate point of the architecture.</p>
+<p>The C-Registration use cases are:</p>
+<p>- Login</p>
+<p>- Register for Courses</p>
+<p>- Maintain Student Information</p>
+<p>- Maintain Professor Information</p>
+<p>- Select Courses to Teach</p>
+<p>- Submit Grades</p>
+<p>- View Report Card</p>
+<p>- Close Registration.</p>
+</font><p><font size="2">These use cases are initiated by the student, professor, or the registrar
+actors. In addition, interaction with external actors; Course Catalog and
+Billing System occur.</font>
+</p></blockquote>
+<font face="Arial" size="2"><b>4.1&nbsp; <a name="Architecturally-Significant Use Cases">Architecturally-Significant
+    Use Cases</a>
+    </b></font>
+<b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+  <p><img src="architecture%20design%20document%20example_files/sadoc_3.gif" border="0" height="702" width="744"></p>
+<ol>
+<ol>
+  <font size="2">
+  <p align="CENTER">Diagram Name: Architecturally Significant Use-Cases</p>
+  </font>
+  <p>&nbsp;
+    
+    </p></ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">4.1.1 Close Registration
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>Brief Description:This use case allows a Registrar to close the
+    registration process. Course offerings that do not have enough students are
+    cancelled. Course offerings must have a minimum of three students in them.
+    The billing system is notified for each student in each course offering that
+    is not cancelled, so the student can be billed for the course offering. The
+    main actor of this use case is the Registrar. The Billing System is an actor
+    involved within this use case.</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">4.1.2 Login
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>Brief Description:This use case describes how a user logs into the Course
+    Registration System. The actors starting this use case are Student,
+    Professor, and Registrar.</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">4.1.3 Maintain Professor
+      Information
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>Brief Description:This use case allows the registrar to maintain
+    professor information in the registration system. This includes adding,
+    modifying, and deleting professors from the system. The actor of this use
+    case is the Registrar.</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">4.1.4 Select Courses to
+      Teach
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>Brief Description:This use case allows a professor to select the course
+    offerings (date- and time- specific courses will be given) from the course
+    catalog for the courses that he/she is eligible for and wishes to teach in
+    the upcoming semester. The actor starting this use case is the Professor.
+    The Course Catalog System is an actor within the use case.</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">4.1.5 Register for Courses
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>Brief Description:This use case allows a student to register for courses
+    in the current semester. The student can also modify or delete course
+    selections if changes are made within the add/drop period at the beginning
+    of the semester. The Billing System is notified of all registration updates.
+    The Course Catalog provides a list of all the course offerings for the
+    current semester. The main actor of this use case is the student. The Course
+    Catalog System is an actor within the use case.</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">4.1.6 View Report Card
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>Brief Description:This use case allows a student to view his/her report
+    card for the previously completed semester. The student is the actor of this
+    use case.</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">4.1.7 Submit Grades
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>Brief Description:This use case allows a professor to submit student
+    grades for one or more classes completed in the previous semester. The actor
+    in this use case is the Professor.</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">4.1.8 Maintain Student
+      Information
+    </font></blockquote>
+  </i>
+<ol>
+  <font size="2">
+<blockquote>
+<p>Brief Description:This use case allows the registrar to maintain student
+information in the registration system. This includes adding, modifying, and
+deleting students from the system. The actor for this use case is the Registrar.</p>
+</blockquote>
+</font>
+</ol>
+<font face="Arial"><b>5.&nbsp; <a name="Logical View">Logical View</a> </b></font><b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+<ol>
+<font size="2">
+<p>A description of the logical view of the architecture. Describes the most
+important classes, their organization in service packages and subsystems, and
+the organization of these subsystems into layers. Also describes the most
+important use-case realizations, for example, the dynamic aspects of the
+architecture. Class diagrams may be included to illustrate the relationships
+between architecturally significant classes, subsystems, packages and layers.</p>
+<p>The logical view of the course registration system is comprised of the 3 main
+packages: User Interface, Business Services, and Business Objects.</p>
+<p>The User Interface Package contains classes for each of the forms that the
+actors use to communicate with the System. Boundary classes exist to support
+login, maintaining of schedules, maintaining of professor info, selecting
+courses, submitting grades, maintaining student info, closing registration, and
+viewing report cards.</p>
+<p>The Business Services Package contains control classes for interfacing with
+the billing system, controlling student registration, and managing the student
+evaluation.</p>
+<p>The Business Objects Package includes entity classes for the university
+artifacts (i.e. course offering, schedule) and boundary classes for the
+interface with the Course Catalog System.</p>
+</font>
+<p>&nbsp;
+</p></ol>
+<font face="Arial" size="2"><b>5.1&nbsp; <a name="Architecture Overview &#8211; Package and Subsystem Layering">Architecture
+    Overview &#8211; Package and Subsystem Layering</a>
+    </b></font><b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b><font size="2">
+  <p><img src="architecture%20design%20document%20example_files/sadoc_4.gif" border="0" height="482" width="532"></p>
+  </font>
+<ol>
+<ol>
+  <p>&nbsp;
+    
+    </p></ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">5.1.1 Application
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>layer</p>
+    <p>This application layer has all the boundary classes that represent the
+    application screens that the user sees. This layer depends upon the Process
+    Objects layer; that straddles the separation of the client from mid-tier.</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">5.1.2 Business Services
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>layer</p>
+    <p>The Business Services process layer has all the controller classes that
+    represent the use case managers that drive the application behavior. This
+    layer represents the client-to-mid-tier border. The Business Services layer
+    depends upon the Process Objects layer; that straddles the separation of the
+    client from mid-tier.</p>
+    </font>
+    </ol>
+    </ol>
+</ol>
+<ol>
+<ol>
+  <ol>
+    </ol>
+    </ol>
+</ol>
+<i>
+    <blockquote>
+      <p><font face="Arial" size="2">5.1.3 Middleware</font></p>
+      </blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>layer</p>
+    <p>The Middleware layer supports access to Relational DBMS and OODBMS.</p>
+    </font>
+    </ol>
+    </ol>
+</ol>
+<i>
+    <blockquote>
+      <p><font face="Arial" size="2">5.1.4 Base Reuse</font></p>
+      </blockquote></i><ol><i>
+<font face="Arial" size="2">
+  </font></i><font size="2">
+<blockquote>
+<p>The Base Reuse package includes classes to support list functions and
+patterns.</p>
+<p>&nbsp;</p>
+</blockquote>
+</font>
+</ol>
+<font face="Arial"><b>6.&nbsp; <a name="Process View">Process View</a> </b></font><b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+<ol>
+<font size="2">
+<p>A description of the process view of the architecture. Describes the tasks
+(processes and threads) involved in the system's execution, their interactions
+and configurations. Also describes the allocation of objects and classes to
+tasks.</p>
+</font><p><font size="2">The Process Model illustrates the course registration classes organized as
+executable processes. Processes exist to support student registration, professor
+functions, registration closing, and access to the external Billing System and
+Course Catalog System.</font>
+</p></ol>
+  <font face="Arial" size="2"><b>6.1 <a name="Processes">Processes</a>
+    </b></font><b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b><font size="2">
+  <p><img src="architecture%20design%20document%20example_files/sadoc_1.gif" border="0" height="592" width="681"></p>
+  <p>&nbsp;</p>
+  </font>
+<ol>
+<ol>
+  <font size="2">
+  <p align="CENTER">Diagram Name: Processes</p>
+  </font>
+    
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">6.1.1 <a name="_Toc447085913">CourseCatalogSystemAccess</a>
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>This process manages access to the legacy Course Catalog System. It can
+    be shared by multiple users registering for courses. This allows for a cache
+    of recently retrieved courses and offerings to improve performance.</p>
+    <p>The separate threads within the CourseCatalog process, CourseCache and
+    OfferingCache are used to asynchronously retrieve items from the legacy
+    system.</p>
+    <p>Analysis Mechanisms:</p>
+    <p>- Legacy Interface</p>
+    <p>Requirements Traceability:</p>
+    <p>- Design Constraints: The system shall integrate with existing legacy
+    system (course catalog database).</p>
+    <p>&nbsp;</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">6.1.2 <a name="_Toc447085914">CourseCatalog</a>
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>The unabbridged catalog of all courses and course offerings offered by
+    the university including those from previous semesters.</p>
+    <p>This class acts as an adapter (see the Gamma pattern). It works to makes
+    sure the CourseCatalogSystem can be accessed through the ICourseCatalog
+    interface to the subsystem.</p>
+    <p>&nbsp;</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">6.1.3 <a name="_Toc447085915">CourseRegistrationProcess</a>
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>There is one instance of this process for each student that is currently
+    registering for courses.</p>
+    <p>&nbsp;</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">6.1.4 <a name="_Toc447085916">RegistrationController</a>
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>This supports the use case allowing a student to register for courses in
+    the current semester. The student can also modify or delete course
+    selections if changes are made within the add/drop period at the beginning
+    of the semester.</p>
+    <p>Analysis Mechanisms:</p>
+    <p>- Distribution</p>
+    <p>&nbsp;</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">6.1.5 <a name="_Toc447085917">StudentApplication</a>
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>Manages the student functionality, including user interface processing
+    and coordination with the business processes.</p>
+    <p>There is one instance of this process for each student that is currently
+    registering for courses.</p>
+    <p>&nbsp;</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">6.1.6 <a name="_Toc447085918">MainStudentForm</a>
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>Controls the interface of the Student application. Controls the family of
+    forms that the Student uses.</p>
+    <p>&nbsp;</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">6.1.7 <a name="_Toc447085919">BillingSystemAccess</a>
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>This process communicates with the external Billing&nbsp; System to
+    initiate student billing.</p>
+    <p>&nbsp;</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">6.1.8 <a name="_Toc447085920">CloseRegistrationProcess</a>
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>The Close Registration process is initiated at the end of the
+    registration time period. This process communicates with the process
+    controlling access to the Billing&nbsp; System.</p>
+    <p>&nbsp;</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">6.1.9 <a name="_Toc447085921">BillingSystem</a>
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>The Billing System supports the submitting of student bills for the
+    courses registered for by the student for the current semester.</p>
+    <p>Analysis Mechanisms:</p>
+    <p>- Legacy Interface</p>
+    <p>&nbsp;</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <font face="Arial" size="2">6.1.10 <a name="_Toc447085922">CloseRegistrationController</a>
+    </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <font size="2">
+  <p>The Close Registration Controller controls access to the Billing&nbsp; System.</p>
+  <p>Analysis Mechanisms:</p>
+  <p>- Distribution</p>
+  <p>&nbsp;</p>
+  </font>
+    </ol>
+</ol>
+  <font face="Arial" size="2"><b>6.2 <a name="Process to Design Elements">Process to Design
+    Elements</a>
+    </b></font>
+    <b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+  <p><img src="architecture%20design%20document%20example_files/sadoc_2.gif" border="0" height="582" width="746"></p>
+<ol>
+<ol>
+  <font size="2">
+  <p align="CENTER">Diagram Name: Process to Design Elements</p>
+  </font>
+  
+    </ol>
+</ol><blockquote>
+  <i>
+    <font face="Arial" size="2">6.2.1 <a name="_Toc447085934">CourseCache</a>
+    </font></i><i>
+    <font size="2">
+    <p>The Course Cache thread is used to asynchronously retrieve items from the
+    legacy Course Catalog System.</p>
+    </font></i></blockquote><i><ol>
+<ol>
+<ol>
+  <font size="2">
+    <p></p></font>
+    </ol>
+    </ol>
+</ol>
+  <blockquote>
+    <p><font face="Arial" size="2">6.2.2 <a name="_Toc447085936">OfferingCache</a></font></p>
+    <font size="2">
+    <p>The OfferingCashe thread is used to asynchronously retrieve items from
+    the legacy Course Catalog System.</p></font>
+    </blockquote>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>&nbsp;</p>
+    </font>
+    </ol>
+    </ol>
+</ol>
+    </i><blockquote><i>
+      <font face="Arial" size="2">6.2.3 Course
+    </font></i><font size="2">
+    <p>A class offered by the university.</p>
+    <p>Analysis Mechanisms:</p>
+    <p>- Persistency</p>
+    <p>- Legacy Interface</p>
+    <p>&nbsp;</p>
+    </font><i>
+    <p><font face="Arial" size="2">6.2.4 <a name="_Toc447085937">CourseOffering</a></font></p>
+    </i></blockquote><ol><ol>
+<i>
+<font face="Arial" size="2">
+    </font></i><font size="2">
+  <p>A specific offering for a course, including days of the week and times.</p>
+  <p>Analysis Mechanisms:</p>
+  <p>- Persistency</p>
+  <p>- Legacy Interface</p>
+  <p>&nbsp;</p>
+  </font>
+    </ol>
+</ol>
+  <font face="Arial" size="2"><b>6.3 <a name="Process Model to Design Model Dependencies">Process Model to
+    Design Model Dependencies</a>
+    </b></font><b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b><font size="2">
+  <p align="left"><img src="architecture%20design%20document%20example_files/sadoc_5.gif" border="0" height="597" width="557"></p>
+  <blockquote>
+  <p align="left">Diagram Name: Process Model to Design Model Dependencies</p>
+  </blockquote>
+  <p>&nbsp;</p>
+  </font>
+  <font face="Arial" size="2"><b>6.4 <a name="Processes to the Implementation">Processes to the
+    Implementation</a> </b></font>
+  <b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+  <p><img src="architecture%20design%20document%20example_files/sadoc_6.gif" border="0" height="591" width="690"></p>
+  <p align="center"><font size="2">Diagram Name: Processes to the Implementation
+  </font>
+  </p>
+  <i>
+    <blockquote>
+      <p><font face="Arial" size="2">6.4.1 Remote</font></p>
+      </blockquote></i><ol><ol>
+<ol>
+<i>
+  <font face="Arial" size="2">
+    </font></i><font size="2">
+    <p>* The Remote interface serves to identify all remote objects. Any object
+    that is a remote object must directly or indirectly implement this
+    interface. Only those methods specified in a remote interface are available
+    remotely.</p>
+    <p>* Implementation classes can implement any number of remote interfaces
+    and can extend other remote implementation classes.</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+    <blockquote>
+      <font face="Arial" size="2">6.4.2 <a name="_Toc447085957">Runnable</a>
+      </font></blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>* The <em>Runnable</em> interface should be implemented by any class
+    whose instances are intended to be executed by a thread. The class must
+    define a method of no arguments called <em>run</em>.</p>
+    <p>* This interface is designed to provide a common protocol for objects
+    that wish to execute code while they are active. For example, <em>Runnable</em>
+    is implemented by class <em>Thread</em>.</p>
+    <p>* Being active simply means that a thread has been started and has not
+    yet been stopped.</p>
+    </font>
+    </ol>
+    </ol>
+</ol><i>
+  <blockquote>
+    <p><font face="Arial" size="2">6.4.3 Thread</font></p>
+    </blockquote>
+    </i>
+<ol>
+<ol>
+  <ol>
+    <font size="2">
+    <p>* A <i>thread</i> is a thread of execution in a program. The Java Virtual
+    Machine allows an application to have multiple threads of execution running
+    concurrently.</p>
+    <p>* Every thread has a priority. Threads with higher priority are executed
+    in preference to threads with lower priority. Each thread may or may not
+    also be marked as a daemon. When code running in some thread creates a new
+    Thread object, the new thread has its priority initially set equal to the
+    priority of the creating thread, and is a daemon thread if and only if the
+    creating thread is a daemon.</p>
+    <p>&nbsp;</p>
+    </font>
+    </ol>
+    </ol>
+</ol>
+  <p><font face="Arial"><b>7.&nbsp; <a name="Deployment View">Deployment View</a>
+  </b></font><b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b></p>
+<ol>
+<font size="2">
+<p>A description of the deployment view of the architecture Describes the
+various physical nodes for the most typical platform configurations. Also
+describes the allocation of tasks (from the Process View) to the physical nodes.</p>
+<p>This section is organized by physical network configuration; each such
+configuration is illustrated by a deployment diagram, followed by a mapping of
+processes to each processor.</p>
+<p><img src="architecture%20design%20document%20example_files/sadoc_8.gif" border="0" height="444" width="598"></p>
+<p align="left">Diagram Name: Deployment View</p>
+</font>
+</ol>
+  <font face="Arial" size="2"><b>7.1 <a name="External Desktop PC">External Desktop PC</a>
+    </b></font>
+  <b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+<ol>
+<ol>
+  <font size="2">
+  <p>Students register for courses using external desktop PCs which are
+  connected to the College Server via internet dial up.</p>
+  </font>
+    </ol>
+</ol>
+  <font face="Arial" size="2"><b>7.2 <a name="Desktop PC">Desktop PC</a>
+    </b></font>
+  <b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+<ol>
+<ol>
+  <font size="2">
+  <p>Students register for courses via local Desktop PCs that are connected
+  directly to the College Server via LAN. These local PCs are also used by
+  professors to select course and submit student grades. The Registrar uses
+  these local PCs to maintain student and professor information.</p>
+  </font>
+    </ol>
+</ol>
+  <font face="Arial" size="2"><b>7.3 <a name="Registration Server">Registration Server</a>
+    </b></font>
+  <b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+<ol>
+<ol>
+  <font size="2">
+  <p>The Registration Server is the main campus UNIX Server. All faculty and
+  students have access to the Server through the campus LAN.</p>
+  </font>
+    </ol>
+</ol>
+  <font face="Arial" size="2"><b>7.4 <a name="Course Catalog">Course Catalog</a>
+    </b></font>
+  <b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+<ol>
+<ol>
+  <font size="2">
+  <p>The Course Catalog System is a legacy system that contains the complete
+  course catalog. Access to it is available via the College Server and LAN.</p>
+  </font>
+    </ol>
+</ol>
+  <font face="Arial" size="2"><b>7.5 <a name="Billing System">Billing System</a>
+  </b></font>
+  <b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+<ol>
+  <font size="2">
+<p>The Billing System (also called the Finance System) is a legacy system that
+generates the student bills each semester.</p>
+<p>&nbsp;</p>
+</font>
+</ol>
+  <font face="Arial"><b>8.&nbsp; <a name="Size and Performance">Size and Performance</a>
+  </b></font><b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+<ol>
+<blockquote>
+  <font size="2">
+  <p>The chosen software architecture supports the key sizing and timing
+  requirements, as stipulated in the Supplementary Specification [15]:</p>
+  </font></blockquote><font size="2">
+  <ol>
+    <ol>
+      <li>The system shall support up to 2000 simultaneous users against the
+        central database at any given time, and up to 500 simultaneous users
+        against the local servers at any one time.</li>
+      <li>The system shall provide access to the legacy course catalog database
+        with no more than a 10 second latency.</li>
+      <li>The system must be able to complete 80% of all transactions within 2
+        minutes.</li>
+      <li>The client portion shall require less than 20 MB disk space and 32 MB
+        RAM.</li>
+    </ol>
+  </ol>
+  </font><blockquote><blockquote>
+    <font size="2">
+      <p>The selected architecture supports the sizing and timing requirements
+      through the implementation of a client-server architecture. The client
+      portion is implemented on local campus PCs or remote dial up PCs. The
+      components have been designed to ensure that minimal disk and memory
+      requirements are needed on the PC client portion.</p></font>
+  </blockquote>
+</blockquote>
+</ol>
+  <font face="Arial"><b>9.&nbsp; <a name="Quality">Quality</a> </b></font><b><font face="Arial"><a href="#Toc"><img src="architecture%20design%20document%20example_files/top.gif" border="0" height="20" width="26"></a></font></b>
+<ol>
+<blockquote>
+  <font size="2">
+  <p>The software architecture supports the quality requirements, as stipulated
+  in the Supplementary Specification [15]:</p>
+  </font></blockquote><ol>
+  <ol>
+    <font size="2">
+      <li>The desktop user-interface shall be Windows 95/98 compliant.</li>
+      <li>The user interface of the C-Registration System shall be designed for
+        ease-of-use and shall be appropriate for a computer-literate user
+        community with no additional training on the System.</li>
+      <li>Each feature of the C-Registration System shall have built-in online
+        help for the user. Online Help shall include step by step instructions
+        on using the System. Online Help shall include definitions for terms and
+        acronymns.</li>
+      <li>The C-Registration System shall be available 24 hours a day, 7 days a
+        week. There shall be no more than 4% down time.</li>
+      <li>Mean Time Between Failures shall exceed 300 hours.</li>
+      <li>Upgrades to the PC client portion of C-Registration shall be
+        downloadable from the UNIX Server over the internet. This feature
+        enables students to have easy access to system upgrades.</li></font>
+  </ol>
+</ol>
+<p>&nbsp;
+&nbsp;
+</p>
+</ol>
+&nbsp;<!--msnavigation--></td></tr><!--msnavigation--></tbody></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td>
+<table border="0" height="23" width="100%">
+  <tbody><tr>
+    <td height="19" width="5%"></td>
+    <td height="19" width="56%"><font face="Arial"><a href="http://www.ts.mah.se/RUP/wyliecollegeexample/courseregistrationproject/copyrite/copyrite.htm"><small><small>Copyright&nbsp;
+© 1987 - 2001 Rational Software Corporation&nbsp;</small></small></a></font>
+    </td>
+    <td height="19" width="39%">
+<p align="right"><font face="Arial"><small><small>
+Course Registration Project Web Example<br>
+Version 2001.02</small></small></font>
+    </p></td>
+  </tr>
+</tbody></table>
+<p>&nbsp;</p>
+</td></tr><!--msnavigation--></tbody></table>
+
+
+</body></html>
