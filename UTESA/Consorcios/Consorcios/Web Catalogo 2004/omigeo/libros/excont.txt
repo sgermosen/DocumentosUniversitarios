@@ -1,0 +1,77 @@
+MICROSOFT EXCEL PARA CONTADORES 
+por PAZOS 
+Isbn 9879831403
+Indice del Contenido
+
+
+
+Índice
+
+Prólogo
+
+Objetivo y Alcance
+
+Temario
+
+Instalación de los archivos
+Instalación directa de los archivos de Aplicación:
+Manual de Uso del CD ROM:
+Explicación general sobre el manejo de los archivos
+Actualizaciones y comentarios
+Archivos con aplicaciones
+
+Parte I
+Planillas de Análisis
+
+Análisis de Resultados
+Análisis de Empresa
+Análisis Patrimonial para Empresas
+Análisis ABC de Ventas
+Índices y Ratios
+
+Parte II
+Planillas de Administración
+
+Cálculo del Punto de Equilibrio
+Cancelación de Comprobantes
+Cartera de Valores
+Costo Total, Medio y Marginal
+
+Parte III
+Presupuesto
+
+Presupuestos de Ventas y Compras
+Cash Flow
+Desviación del Presupuesto de Ventas
+
+Parte IV
+Contable
+
+Anexos de Balance
+EVCC
+Método Directo
+Método Indirecto
+EOAF
+Método Directo
+Método Indirecto
+Libro Diario y Mayores
+
+Parte V
+Organizativas
+
+Libro Diario de Caja
+Libro de Banco
+Administración de Currículums Vitae
+
+Apéndice
+Herramientas útiles en Excel
+
+Consulta sobre una Web
+Tablas y Gráficos dinámicos
+Validación de Datos
+
+Anexo
+Cómo contactarse con los autores
+Excel para Contadores en Internet
+Autores
+

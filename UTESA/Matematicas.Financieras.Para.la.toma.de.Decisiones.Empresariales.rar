@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+ <title>RapidShare: Easy Filehosting</title>
+ <link rel="icon" href="/img2/favicon.ico" type="image/ico" />
+<link rel="SHORTCUT ICON" href="/img2/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" type="text/css" href="/img2/styles.css" />
+ <script type="text/javascript">
+ <!--
+ function enable_menues_for_ie()
+{
+	if (document.all) {
+        uls = document.getElementsByTagName('UL');
+        for(i = 0; i < uls.length; i++) {
+            if (uls[i].className == 'dropdown') {
+                var lis = uls[i].getElementsByTagName('li');
+                for (j = 0; j < lis.length; j++) {
+                    if(lis[j].lastChild.tagName == 'UL') {
+                        lis[j].onmouseover = function() { this.lastChild.style.display = 'block'; }
+                        lis[j].onmouseout = function() { this.lastChild.style.display = 'none'; }
+                    }
+                }
+            }
+        }
+    }
+}
+window.onload = enable_menues_for_ie;
+//-->
+</script>
+ </head>
+
+<body>
+<center>
+<div class="hauptmenue">
+<table><tr><td>
+    <ul class="dropdown">      
+        <li><a href="http://rapidshare.com/index.html">Home</a></li>                        
+        <li><a href="http://rapidshare.com/news.html">News</a></li>    
+        <li><a href="https://ssl.rapidshare.com/cgi-bin/premiumzone.cgi">Premium Zone</a>
+            <ul>                    
+                <li><a href="https://ssl.rapidshare.com/cgi-bin/premiumzone.cgi">Premium Zone Login</a></li>
+                <li><a href="http://rapidshare.com/premium.html">Create Account</a></li>
+                <li><a href="http://rapidshare.com/verlaengern.html">Extend Account</a></li>                
+                <li><a href="http://rapidshare.com/forgotpw.html">Forgot Password</a></li>
+                <li style="border:0px;"><a href="http://rapidshare.com/faq5.html">TrafficShare</a></li>               
+            </ul>
+        </li>
+        <li><a href="http://rapidshare.com/freezone.html">Free Zone</a>
+            <ul>
+                <li><a href="https://ssl.rapidshare.com/cgi-bin/collectorszone.cgi">Collector's Zone Login</a></li>
+                <li><a href="http://rapidshare.com/folderadmin.html">LinkList Login</a></li>
+                <li style="border:0px;"><a href="http://rapidshare.com/freefolders.html">Create LinkList</a></li> 
+            </ul>
+        </li>        
+        <li><a href="http://www.rapidgames.com/" target="_blank">RapidGames</a></li>
+        <li><a href="http://rapidshare.com/rapidtools.html">RapidTools</a>
+            <ul>                    
+                <li><a href="http://rapidshare.com/rsm.html">RapidShare Manager</a></li>
+                <li><a href="http://rapidshare.com/rapiduploader.html">RapidUploader</a></li>
+                <li style="border:0px;"><a href="http://rapidshare.com/checkfiles.html">RapidShare Checker</a></li>
+            </ul>
+        </li>
+        <li><a href="http://rapidshare.com/supportseite.html">Support</a>
+            <ul>                    
+                <li><a href="http://rapidshare.com/faq.html">FAQ</a></li>
+                <li><a href="http://rapidshare.com/support.html">Support Contact</a></li>
+                <li><a href="http://rapidshare.com/abuse.html">Abuse Contact</a></li>
+                <li style="border:0px;"><a href="http://rapidshare.com/security.html">Security advice</a></li>
+            </ul>
+        </li>        
+        <li style="border:0px;"><a href="http://rapidshare.com/rapidshare.html"><nobr>RapidShare AG</nobr></a>
+            <ul>
+                <li><a href="http://rapidshare.com/wiruberuns.html">About us</a></li>
+                <li><a href="http://rapidshare.com/testimonials.html">Testimonials</a></li>                
+                <li><a href="http://rapidshare.com/banners.html">Banner</a></li>               
+                <li><a href="http://rapidshare.com/agb.html">Conditions of use</a></li>
+                <li style="border:0px;"><a href="http://rapidshare.com/imprint.html">Imprint</a></li>
+            </ul>
+        </li>        
+    </ul>
+    </td></tr></table>
+</div>
+<a href="http://rapidshare.com"><img src="/img2/rslogo.gif" width="300" height="214" alt="logo" /></a>
+<noscript><h1>This page needs JavaScript, to display all information correct!</h1></noscript>
+
+<div id="inhaltbox">
+<h1>Error</h1>
+<div class="klappbox">
+You want to download the following file:
+<p class="downloadlink">http://rapidshare.com/files/130751065/Matematicas.Financieras.Para.la.toma.de.Decisiones.Empresariales.rar <font style="color:#8E908F;">| 4344 KB</font></p>
+<p>The download cannot be provided.  Please check, if your browser supports Javascript.</p>
+
+
+</div>
+<div class="untermenue">
+ <a href="http://rapidshare.com/wiruberuns.html">About us</a> | <a href="http://rapidshare.com/agb.html">Terms of use</a> | <a href="http://rapidshare.com/imprint.html">Imprint</a>
+</div>
+
+</div>
+</center>
+<p>&nbsp;</p>
+<div style="position:fixed;left:0px;bottom:0px;height:15px;width:50%;background-color:#8E908F;"></div>
+<div style="position:fixed;left:50%;bottom:0px;height:15px;width:50%;background-color:#002760;"></div>
+</body>
+</html>
+

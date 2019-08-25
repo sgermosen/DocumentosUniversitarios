@@ -1,0 +1,314 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [102.05 767.10 400.37 755.10] /Border [0 0 0] /A <</S /URI /URI (http://www.mundoculturalhispano.com/spip.php?article36627)>>>><</Type /Annot /Subtype /Link /Rect [45.35 21.01 202.83 13.01] /Border [0 0 0] /A <</S /URI /URI (http://www.mundoculturalhispano.com/spip.php?article36627)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1138>>
+stream
+2 J
+0.57 w
+0.85 w
+34.02 807.87 m 575.44 807.87 l S
+BT /F1 12.00 Tf ET
+q 0.000 g BT 186.71 812.78 Td (RESOLUCIÓN DE PROBLEMAS CON C++) Tj ET Q
+0.57 w
+BT /F2 12.00 Tf ET
+BT 102.05 780.18 Td (Extraído de MUNDO CULTURAL HISPANO) Tj ET
+q 0.000 0.000 1.000 rg BT 102.05 757.50 Td (http://www.mundoculturalhispano.com/spip.php?article36627) Tj ET 102.05 756.30 298.32 -0.60 re f Q
+BT /F3 14.00 Tf ET
+q 0.000 g BT 297.64 568.40 Td () Tj ET Q
+BT /F1 32.00 Tf ET
+q 0.000 g BT 164.29 520.48 Td (RESOLUCIÓN DE) Tj ET Q
+q 0.000 g BT 120.73 463.79 Td (PROBLEMAS CON C++) Tj ET Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 243.60 429.88 Td (- BIBLIOTECA VIRTUAL M.C.H. - ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 314.65 308.81 Td (Fecha de publicación en línea: Martes 5 de agosto de 2014) Tj ET Q
+BT /F5 10.00 Tf ET
+127.56 133.23 m 467.72 133.23 l S 127.56 110.55 m 467.72 110.55 l S q 0.000 g BT 135.02 118.89 Td (Copyright © MUNDO CULTURAL HISPANO - Todos derechos reservados) Tj ET Q
+0.85 w
+34.02 25.51 m 575.44 25.51 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 45.35 14.61 Td (Copyright © MUNDO CULTURAL HISPANO) Tj ET Q
+q 0.000 g BT 524.77 14.61 Td (Page 1/3) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [45.35 21.01 202.83 13.01] /Border [0 0 0] /A <</S /URI /URI (http://www.mundoculturalhispano.com/spip.php?article36627)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 4913>>
+stream
+2 J
+0.57 w
+BT /F5 10.00 Tf ET
+0.85 w
+34.02 807.87 m 575.44 807.87 l S
+BT /F1 12.00 Tf ET
+q 0.000 g BT 186.71 812.78 Td (RESOLUCIÓN DE PROBLEMAS CON C++) Tj ET Q
+0.57 w
+BT /F5 10.00 Tf ET
+BT /F4 10.00 Tf ET
+q 0.000 g BT 45.35 775.11 Td (Este) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 65.36 775.11 Td ( libro) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 89.81 775.11 Td ( está diseñado para utilizarse en un primer curso de) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 319.91 775.11 Td ( programación) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 389.37 775.11 Td ( o ciencias de la computación, usando) Tj ET Q
+q 0.000 g BT 45.35 760.94 Td (el) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 53.13 760.94 Td ( lenguaje C++) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 118.16 760.94 Td (. No se requiere de una experiencia previa de programación y bastan conocimientos de) Tj ET Q
+q 0.000 g BT 45.35 746.76 Td (matemáticas a nivel de educación media. Si ha utilizado la edición anterior de este libro, le recomiendo que lea la) Tj ET Q
+q 0.000 g BT 45.35 732.59 Td (siguiente sección, en la que se explican los cambios en esta quinta edición; de esta manera podrá saltarse el resto) Tj ET Q
+q 0.000 g BT 45.35 718.42 Td (del prefacio. Si es la primera vez que usa este libro, el resto del prefacio le será muy útil dado que presenta un) Tj ET Q
+q 0.000 g BT 45.35 704.24 Td (panorama general.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 682.98 Td (CONTENIDO) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 45.35 647.55 Td (Capítulo 1. Introducción a las computadoras y a la programación en C++) Tj ET Q
+q 0.000 g BT 45.35 633.38 Td (Capítulo 2. Fundamentos de C++) Tj ET Q
+q 0.000 g BT 45.35 619.20 Td (Capítulo 3. Abstracción de procedimientos y funciones que devuelven un valor) Tj ET Q
+q 0.000 g BT 45.35 605.03 Td (Capítulo 4. Funciones para todas las subtareas) Tj ET Q
+q 0.000 g BT 45.35 590.86 Td (Capítulo 5. Flujos de E/S como introducción a los objetos y clases) Tj ET Q
+q 0.000 g BT 45.35 576.69 Td (Capítulo 6. Definición de clases) Tj ET Q
+q 0.000 g BT 45.35 562.51 Td (Capítulo 7. Más flujo de control) Tj ET Q
+q 0.000 g BT 45.35 548.34 Td (Capítulo 8. Friends \(amigas\) y sobrecarga de operadores) Tj ET Q
+q 0.000 g BT 45.35 534.17 Td (Capítulo 9. Compilación por separado y espacios de nombres) Tj ET Q
+q 0.000 g BT 45.35 519.99 Td (Capítulo 10. Arreglos) Tj ET Q
+q 0.000 g BT 45.35 505.82 Td (Capítulo 11. Cadenas y vectores) Tj ET Q
+q 0.000 g BT 45.35 491.65 Td (Capítulo 12. Apuntadores y arreglos dinámicos) Tj ET Q
+q 0.000 g BT 45.35 477.47 Td (Capítulo 13. Recursión) Tj ET Q
+q 0.000 g BT 45.35 463.30 Td (Capítulo 14. Plantillas) Tj ET Q
+q 0.000 g BT 45.35 449.13 Td (Capítulo 15. Apuntadores y listas enlazadas) Tj ET Q
+q 0.000 g BT 45.35 434.95 Td (Capítulo 16. Herencia) Tj ET Q
+q 0.000 g BT 45.35 420.78 Td (Capítulo 17. Manejo de excepciones) Tj ET Q
+q 0.000 g BT 45.35 406.61 Td (Capítulo 18. Biblioteca de plantillas estándar) Tj ET Q
+q 0.000 g BT 45.35 371.17 Td (Apéndice 1. Palabras clave de C++) Tj ET Q
+q 0.000 g BT 45.35 357.00 Td (Apéndice 2. Precedencia de operadores) Tj ET Q
+q 0.000 g BT 45.35 342.83 Td (Apéndice 3. El conjunto de caracteres ASCII) Tj ET Q
+q 0.000 g BT 45.35 328.65 Td (Apéndice 4. Algunas funciones de biblioteca) Tj ET Q
+q 0.000 g BT 45.35 314.48 Td (Apéndice 5. La instrucción assert) Tj ET Q
+q 0.000 g BT 45.35 300.31 Td (Apéndice 6. Funciones en línea) Tj ET Q
+q 0.000 g BT 45.35 286.13 Td (Apéndice 7. Sobrecarga de los corchetes de índice de arreglo) Tj ET Q
+q 0.000 g BT 45.35 271.96 Td (Apéndice 8. El apuntador this) Tj ET Q
+q 0.000 g BT 45.35 257.79 Td (Apéndice 9. Sobrecarga de operadores como operadores miembro) Tj ET Q
+q 0.000 g BT 45.35 222.35 Td (Índice) Tj ET Q
+q 0.000 g BT 45.35 158.58 Td ([http://3.bp.blogspot.com/-FoehOzcoGt4/U4TRy8PEfMI/AAAAAAAAskw/hI5WrD3jIls/s1600/RESOLUCI%C3%93N+D) Tj ET Q
+q 0.000 g BT 45.35 144.40 Td (E+PROBLEMAS+CON+C++.PNG]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 130.23 Td (Páginas) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 83.70 130.23 Td ( : 961) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 116.06 Td (Peso) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 69.25 116.06 Td ( :  4mb.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 101.88 Td (Formato) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 85.35 101.88 Td ( : PDF.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 87.71 Td (Edición) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 81.47 87.71 Td ( : Quinta) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 73.54 Td (Año de Publicación) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 138.15 73.54 Td ( :2007) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 59.36 Td (ISBN) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 69.24 59.36 Td ( : 978-970-26-0806-6) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+34.02 25.51 m 575.44 25.51 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 45.35 14.61 Td (Copyright © MUNDO CULTURAL HISPANO) Tj ET Q
+q 0.000 g BT 524.77 14.61 Td (Page 2/3) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [53.51 747.68 125.20 737.68] /Border [0 0 0] /A <</S /URI /URI (http://depositfiles.org/files/i2x7q1pv3)>>>><</Type /Annot /Subtype /Link /Rect [133.36 747.68 180.59 737.68] /Border [0 0 0] /A <</S /URI /URI (http://www.4shared.com/rar/e3AnZLSuce/94-12-3-2014_-_wwwLIBROSFULLco.html)>>>><</Type /Annot /Subtype /Link /Rect [45.35 712.24 121.64 702.24] /Border [0 0 0] /A <</S /URI /URI (http://www.mundoculturalhispano.com/https://twitter.com/aleive)>>>><</Type /Annot /Subtype /Link /Rect [45.35 634.29 171.49 624.29] /Border [0 0 0] /A <</S /URI /URI (http://www.aleive.org/2014/05/resolucion-de-problemas-con-c.html)>>>><</Type /Annot /Subtype /Link /Rect [45.35 563.43 212.60 553.43] /Border [0 0 0] /A <</S /URI /URI (http://gotlinks.co/3wKH)>>>><</Type /Annot /Subtype /Link /Rect [45.35 492.56 212.60 482.56] /Border [0 0 0] /A <</S /URI /URI (http://www.guiaparasermillonario.com/)>>>><</Type /Annot /Subtype /Link /Rect [45.35 421.69 254.30 411.69] /Border [0 0 0] /A <</S /URI /URI (http://www.dineroensegundos.freeiz.com/)>>>><</Type /Annot /Subtype /Link /Rect [45.35 21.01 202.83 13.01] /Border [0 0 0] /A <</S /URI /URI (http://www.mundoculturalhispano.com/spip.php?article36627)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 2392>>
+stream
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0.85 w
+34.02 807.87 m 575.44 807.87 l S
+BT /F1 12.00 Tf ET
+q 0.000 g BT 186.71 812.78 Td (RESOLUCIÓN DE PROBLEMAS CON C++) Tj ET Q
+0.57 w
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 789.28 Td (Editorial) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 85.36 789.28 Td ( : Pearson) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 775.11 Td (Autor) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 72.01 775.11 Td (: Walter Savitch) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 753.85 Td (Descargar | Download) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 g BT 45.35 739.68 Td ( |) Tj ET Q
+q 0.000 g BT 50.73 739.68 Td ( ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 53.51 739.68 Td (DEPOSITFILES) Tj ET 53.51 738.68 71.69 -0.50 re f Q
+q 0.000 g BT 125.20 739.68 Td ( |) Tj ET Q
+q 0.000 g BT 130.58 739.68 Td ( ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.36 739.68 Td (4SHARED) Tj ET 133.36 738.68 47.23 -0.50 re f Q
+q 0.000 g BT 180.59 739.68 Td ( | UPLOADED | FREAKSHARE | UPLOADSTATION |) Tj ET Q
+q 0.000 0.000 1.000 rg BT 45.35 704.24 Td (Seguir a @aleive) Tj ET 45.35 703.24 76.29 -0.50 re f Q
+q 0.000 g BT 45.35 690.07 Td ( !function\(d,s,id\){var) Tj ET Q
+q 0.000 g BT 45.35 675.90 Td (js,fjs=d.getElementsByTagName\(s\)[0];if\(!d.getElementById\(id\)\){js=d.createElement\(s\);js.id=id;js.src="http://www.alei) Tj ET Q
+q 0.000 g BT 45.35 661.72 Td (ve.org///platform.twitter.com/widgets.js";fjs.parentNode.insertBefore\(js,fjs\);}}\(document,"script","twitter-wjs"\);) Tj ET Q
+q 0.000 0.000 1.000 rg BT 45.35 626.29 Td (LEER MAS Y DESCARGAR) Tj ET 45.35 625.29 126.14 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 590.86 Td (LIBRERIA EROTICA) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 45.35 555.43 Td (DESCARGAR AHORA - CLICK AQUI) Tj ET 45.35 554.43 167.25 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 519.99 Td (GUIA PARA SER MILLONARIO) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 45.35 484.56 Td (DESCARGAR AHORA - CLICK AQUI) Tj ET 45.35 483.56 167.25 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 45.35 449.13 Td (GANA 100 DOLARES EN 1 MINUTO) Tj ET Q
+BT /F4 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 45.35 413.69 Td (VIDEOS Y PRUEBAS DE GANANCIAS AQUI !) Tj ET 45.35 412.69 208.95 -0.50 re f Q
+BT /F6 8.00 Tf ET
+0.85 w
+34.02 25.51 m 575.44 25.51 l S
+q 0.000 g BT 45.35 14.61 Td (Copyright © MUNDO CULTURAL HISPANO) Tj ET Q
+q 0.000 g BT 524.77 14.61 Td (Page 3/3) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+15 0 obj
+<<
+/Producer (FPDF 1.7)
+/Title (RESOLUCIÓN DE PROBLEMAS CON C++)
+/Subject (BIBLIOTECA VIRTUAL M.C.H.)
+/Creator (MUNDO CULTURAL HISPANO)
+/CreationDate (D:20160825235556)
+>>
+endobj
+16 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /Fit]
+/PageLayout /SinglePage
+>>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000010585 00000 n 
+0000011284 00000 n 
+0000000009 00000 n 
+0000000421 00000 n 
+0000001609 00000 n 
+0000001858 00000 n 
+0000006821 00000 n 
+0000008143 00000 n 
+0000010684 00000 n 
+0000010785 00000 n 
+0000010884 00000 n 
+0000010984 00000 n 
+0000011081 00000 n 
+0000011179 00000 n 
+0000011443 00000 n 
+0000011631 00000 n 
+trailer
+<<
+/Size 17
+/Root 16 0 R
+/Info 15 0 R
+>>
+startxref
+11730
+%%EOF

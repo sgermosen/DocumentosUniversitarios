@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Omicron System</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<SCRIPT LANGUAGE="JavaScript"> 
+
+var newwin; 
+
+function launchwin(winurl,winname,winfeatures) 
+{ 
+//This launches a new window and then 
+//focuses it if window.focus() is supported. 
+newwin = window.open(winurl,winname,winfeatures); 
+if(javascript_version > 1.0) 
+{ 
+//delay a bit here because IE4 encounters errors 
+//when trying to focus a recently opened window 
+setTimeout('newwin.focus();',250); 
+} 
+} 
+</SCRIPT> 
+
+<body topmargin="0" leftmargin="0" bgcolor="#FFFFFF" text="#000000">
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="550" height="400">
+  <param name=movie value="presentacion.swf">
+  <param name=quality value=high>
+  <embed src="presentacion.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="550" height="400">
+  </embed> 
+</object> <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="5" height="5">
+  <param name=movie value="sonido.swf">
+  <param name=quality value=high>
+  <embed src="sonido.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="5" height="5">
+  </embed> 
+</object> 
+</body>
+</html>

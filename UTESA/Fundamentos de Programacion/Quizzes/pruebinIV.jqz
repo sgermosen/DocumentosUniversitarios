@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Samuel Luciano</dc:creator>
+    <dc:title>Pruebin IV</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>Pruebin IV</title>
+
+<timer><seconds>360</seconds><include-timer>1</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Seg&amp;#x00FA;n sus conocimiento, &amp;#x00BF;cu&amp;#x00E1;l es la correcta definici&amp;#x00F3;n de bucle?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Bloque de c&amp;#x00F3;digo que nos permite repetir ciertas sentencias o l&amp;#x00ED;neas de c&amp;#x00F3;digo un numero determinado de veces o basado en una condicionante o expresi&amp;#x00F3;n.</text><feedback>Correcta!. Los bucles nos permiten repetir sentencias de c&amp;#x00F3;digo sin necesidad de realizar copy-paste basado en condicionantes o expresiones y contadores.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Sentencia de codificaci&amp;#x00F3;n que nos permite repetir sentencias un n&amp;#x00FA;mero de veces fijo.</text><feedback>Incorrecta! No son sentencias, son bloques de c&amp;#x00F3;digo.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Bloque de c&amp;#x00F3;digo que nos permite evaluar una condicionante o expresi&amp;#x00F3;n para determinar si es verdadera y ejecutar unas sentencias basada en esta condici&amp;#x00F3;n o expresi&amp;#x00F3;n.</text><feedback>Incorrecta! Algunos bucles se ejecutan basado en una condicionante o expresi&amp;#x00F3;n pero no solo una vez, sino mientras sea verdadera la condici&amp;#x00F3;n o expresi&amp;#x00F3;n.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x00BF;Cu&amp;#x00E1;les son los tres (3) componentes que componen la estructura del bucle for?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>inicio;condici&amp;#x00F3;n;incremento/decremento</text><feedback>Correcta! Lo primero que colocamos es donde iniciara el conteo separado por el s&amp;#x00ED;mbolo ; colocamos la condici&amp;#x00F3;n que indicar&amp;#x00E1; la finalizaci&amp;#x00F3;n del bucle y por &amp;#x00FA;ltimo, separado por ; tambi&amp;#x00E9;n, en que cantidad se incrementar&amp;#x00E1; o decrementar&amp;#x00E1; la variable contadora.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>inicio;incremento;declaraci&amp;#x00F3;n</text><feedback>Incorrecta! No existe un componente que se llame declaraci&amp;#x00F3;n.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>declaraci&amp;#x00F3;n;condici&amp;#x00F3;n;incremento/decremento</text><feedback>Incorrecta! No existe un componente que se llame declaraci&amp;#x00F3;n.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>declaraci&amp;#x00F3;n;incremento/decremento</text><feedback>Incorrecta! No existe un componente que se llame declaraci&amp;#x00F3;n adem&amp;#x00E1;s de que la estructura contiene tres (3) elementos.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x00BF;Qu&amp;#x00E9; diferencia existe entre el bucle while() y el bucle do...while()?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>El bucle do...while() se ejecuta aunque sea una sola vez aunque la condici&amp;#x00F3;n o expresi&amp;#x00F3;n sea falsa a diferencia del bucle while() que primero verifica que la condici&amp;#x00F3;n sea verdadera para ejecutarse.</text><feedback>Correcta! El bucle do...while() eval&amp;#x00FA;a la condici&amp;#x00F3;n luego de haberse ejecutado. El bucle while() eval&amp;#x00FA;a la condici&amp;#x00F3;n antes de ejecutarse.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No existe diferencia mas que uno tiene un do delante y el otro no.</text><feedback>Incorrecta! Existe una peque&amp;#x00F1;a diferencia.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>El bucle do...while() se ejecuta basado en un contador y el bucle while() basado en una condici&amp;#x00F3;n o expresi&amp;#x00F3;n.</text><feedback>Incorrecta! Ambos bucles se ejecutan basado en una condicionante o expresi&amp;#x00F3;n.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Pruebin I</exercise-subtitle>
+<instructions>Debe elegir una respuesta seg&amp;#x00FA;n sus conocimientos para cada una de las preguntas planteadas a continuaci&amp;#x00F3;n:</instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Respuestas correctas: </correct-answers>
+<show-answer-caption>Mostrar respuestas</show-answer-caption>
+<include-hint>0</include-hint>
+<include-show-answer>0</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Usted obtuvo: </your-score-is>
+<correct-indicator>Correcto!</correct-indicator>
+<incorrect-indicator>Incorrecto!</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Preguntas completadas hasta el momento: </completed-so-far>
+<exercise-completed>Ha completado correctamente el pruebin.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Se acab&amp;#x00F3; el tiempo l&amp;#x00ED;mite!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Calibri</font-face>
+<font-size>small</font-size>
+<page-bg-color>#0088ec</page-bg-color>
+<title-color>#ffffff</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#004171</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Verificar respuestas!</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>&amp;#x003E;&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;&amp;#x003C;</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Mostrar todas las preguntas</show-all-questions-caption>
+<show-one-by-one-caption>Mostrar preguntas una por una</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

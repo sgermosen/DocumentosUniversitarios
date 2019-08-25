@@ -1,0 +1,21 @@
+﻿<personas>
+  <persona>
+    <nombre>Diego</nombre>
+    <apellido>Perez</apellido>
+    <domicilio>Piedras 10</domicilio>
+    <telefono>44870000</telefono>
+  </persona>
+  <persona>
+    <nombre>Marcelo</nombre>
+    <apellido>Gobliet</apellido>
+    <domicilio>Tucuman 373</domicilio>
+    <telefono>45870000</telefono>
+  </persona>
+  <persona>
+    <nombre>Enrique</nombre>
+    <apellido>Marcn</apellido>
+    <domicilio>Las Palmas 123</domicilio>
+    <telefono>84811235</telefono>
+  </persona>
+</personas>
+

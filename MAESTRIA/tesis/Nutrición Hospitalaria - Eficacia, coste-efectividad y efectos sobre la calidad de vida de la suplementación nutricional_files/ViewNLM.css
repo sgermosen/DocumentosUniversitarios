@@ -1,0 +1,136 @@
+/* Stylesheet for proofnlm.xsl
+Beta release: July 8, 2003
+~~~~~~~~~~~~~~
+National Center for Biotechnology Information (NCBI)
+National Library of Medicine (NLM)
+~~~~~~~~~~~~~~
+The classes below are divided into the following sections:
+
+   Page setup
+   Titling levels
+
+For classes that may not be self-evident, 
+a comment describing the use preceeds them.
+*/
+
+
+/* --------------- Page setup ------------------------ */
+
+/* page and text defaults */
+html {
+     font-family:  helvetica;
+     font-size:    10pt;
+     margin-left:  8%;
+     margin-right: 8%;
+     }
+
+/* front-matter */
+.fm  {
+     font-size:   9pt;
+     line-height: 1.5;
+
+     }
+     
+/* article body */
+.body
+     {
+     font-family: times new roman;
+     font-size:   12pt;
+     line-height: 1.4;
+
+     }
+
+/* back-matter */
+.bm  {
+     font-size:   9pt;
+     line-height: 1.5;
+     }
+
+/* rules */
+hr.part-rule {
+    color: red;
+    width: 50%;
+    align: center;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    }
+
+hr.section-rule {
+    color: black;
+    width: 50%;
+    align: center;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    }
+
+/* superior numbers which are cross-references */
+.xref {
+    color: red;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    }
+    
+/* generated text   
+.gen {
+    color: gray;
+    }
+
+ */  
+/* --------------- Titling levels -------------------- */
+
+
+/* titling level 1: document title */
+.tl-document {
+   display: block;
+   font-family: helvetica, sans-serif;
+   font-size: 18pt;
+   font-weight: bold;
+   color: blue;
+   line-height: 140%;
+   text-align: center;
+   }
+
+/* titling level 2: main document parts */
+.tl-main-part {
+   display: block;
+   font-family: helvetica, sans-serif;
+   font-size: 16pt;
+   font-weight: bold;
+   color: blue;
+   line-height: 130%;
+   
+   }
+ 
+/* titling level 3: first-level sections of main parts */
+ .tl-section-level {
+   display: block;
+   font-family: helvetica, sans-serif;
+   font-size: 14pt;
+   font-weight: bold;
+   color: blue;
+   line-height: 130%;
+   }
+ 
+/* titling level 4: lowest designed level */
+.tl-lowest-section {
+   display: block;
+   font-family: helvetica, sans-serif;
+   font-size: 12pt;
+   font-weight: bold;
+   color: blue;
+   line-height: 130%;
+   }
+   
+/* default titling level */
+.tl-default {
+   display: block;
+   font-family: helvetica, sans-serif;
+   font-size: 12pt;
+   font-style: italic;
+   color: blue;
+   line-height: 130%;
+   margin-top: 5pt;
+  }
+   
+/* ---------------- End ------------------------------ */
+

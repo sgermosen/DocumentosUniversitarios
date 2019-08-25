@@ -1,0 +1,75 @@
+Excel Para Contadores
+
+Autores: C.P. Alejandro Pazos
+	 C.P. Matias Garcia Fronti
+Consultores Tecnologicos: 
+	 Ingeniero Javier I. Garcia Fronti
+	 Alicia Mariana Reston
+
+Indice:
+
+Prólogo 
+Instalación de los Archivos
+Explicación Gral. sobre el manejo de los archivos
+Actualizaciones y Comentarios
+Archivos con Aplicaciones
+
+Gestion y Costos
+
+Beneficio por linea
+Compinacion Optima de Productos
+Seguimiento del Costo de Mano de Obra
+Asignacion de Costo por Operacion
+Boleta de Devolucion
+Ordenes de Pedido
+
+Marketing y Ventas
+
+Solicitud de Envio
+Comisiones de los Vendedores
+Seguimiento de las Garantias
+Posicionamiento Estrategico
+Ventas del Mes
+
+Recursos Humanos
+
+Reclutamiento de Personal
+Planeamiento de la Capacitacion
+Staff Permanente y a Incorporar
+Remuneracion del Personal
+Base de Datos Empleados
+
+Finanzas
+
+Plazo Fijo
+Sistemas de Amortización Aleman y Frances
+Cash Flow
+Intereses
+Calculo de Interes Simple
+Fuentes de Financiacion
+Analisis Patrimonial para Empresas
+Analisis de Resultados
+
+Control Presupuestario
+
+Presupuesto de Unidades Fisicas
+Presupuesto de Pagos y Cobranzas
+Presupuesto 2001
+Calculo de Desviaciones
+Niveles de Produccion
+
+Apendice
+
+Consulta sobre una Web
+Tablas y Graficos Dinamicos
+Comenzar a Trabajar con Publisher 2000
+Organizacion de Email Reglas en Outlook 2000
+
+Anexo
+
+Como contactárse con los autores
+Office Argentino 2000 en Internet
+Autores
+Otras Publicaciones
+Soluciones Informaticas
+

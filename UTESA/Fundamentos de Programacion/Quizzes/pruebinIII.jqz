@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Samuel Luciano</dc:creator>
+    <dc:title>Pruebin III</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>Pruebin III</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Imagine que desea crear un programa que introducido un n&amp;#x00FA;mero, se determine si dicho n&amp;#x00FA;mero se encuentra en el rango de valores de 0 y 100 (ambos incluidos). Si declaramos una variable llamada &apos;numero&apos;, &amp;#x00BF;cu&amp;#x00E1;l ser&amp;#x00ED;a la sentencia correcta?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>if(numero &amp;#x003E;= 0 &amp;#x0026;&amp;#x0026; numero &amp;#x003C;= 100)</text><feedback>Correcta! En este caso el operador l&amp;#x00F3;gico &amp;#x0026;&amp;#x0026; nos permite evaluar ambas condiciones y solo si las dos son verdaderas entonces el enunciado es verdadero.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>if(numero &amp;#x003E;= 0 || numero &amp;#x003C;= 100)</text><feedback>Incorrecta! En este caso el operador l&amp;#x00F3;gico || no funcionar&amp;#x00ED;a correctamente debido a que el mismo evalua que una de las dos condiciones sea verdadera para evaluar el enunciado como verdadero.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>if(numero &amp;#x003E; 0 &amp;#x0026;&amp;#x0026; numero &amp;#x003C; 100)</text><feedback>Incorrecta! En este caso los operadores de comparaci&amp;#x00F3;n que debieron ser usados fueron &amp;#x003E;= y &amp;#x003C;= para que est&amp;#x00E9;n ambos n&amp;#x00FA;meros incluidos.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>if(numero &amp;#x003E; 0 || numero &amp;#x003C; 100)</text><feedback>Incorrecta! En este caso los operadores de comparaci&amp;#x00F3;n que debieron ser usados fueron &amp;#x003E;= y &amp;#x003C;= para que est&amp;#x00E9;n ambos n&amp;#x00FA;meros incluidos.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x00BF;Cu&amp;#x00E1;l de los siguiente operadores utilizara usted para incrementar el valor de una variable en 1?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>++</text><feedback>Correcta! Este operador, al ser aplicado al nombre de una variable, incrementa en 1 su valor.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>--</text><feedback>Incorrecta! Este operador, al ser aplicado al nombre de una variable, decrementa en 1 su valor.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x0026;&amp;#x0026;</text><feedback>Incorrecta! Este es un operador l&amp;#x00F3;gico que nos permite formar expresiones con varias condiciones para evaluar si dichas condiciones se cumple al mismo tiempo.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>||</text><feedback>Incorrecta! Este operador l&amp;#x00F3;gico nos permite evaluar varias condiciones para verificar si al menoos una de las mismas es verdadera.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Imagine que desea comparar el valor de una variable con varios valores, &amp;#x00BF;qu&amp;#x00E9; sentencia es la mas adecuada para realizar este procedimiento?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>switch</text><feedback>Correcta! El bloque selectivo SWITCH nos permite compara la equidad del valor de una variable con cierto valores.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>if</text><feedback>Incorrecta! Podr&amp;#x00ED;amos utilizar una sentencia IF para este caso pero es mejor utilizar una sentencia SWITCH, ser&amp;#x00ED;a mas corto el procedimiento.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>while</text><feedback>Incorrecta! Este bloque iterativo nos permite ejecutar unas sentencias basado en la evaluaci&amp;#x00F3;n de una condici&amp;#x00F3;n.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>for</text><feedback>Incorrecta! Este bloque iterativo nos permite ejecutar unas sentencias badaso en un contador, cierta cantidad de veces.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para conocer el tama&amp;#x00F1;o del tipo de dato int, &amp;#x00BF;cu&amp;#x00E1;l de las siguientes sentencias deber&amp;#x00ED;a utilizar?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>sizeof(int);</text><feedback>Correcta! Esta sentencia nos da como resultado el tama&amp;#x00F1;o en bytes del tipo de dato int.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>sizeof(double);</text><feedback>Incorrecta! Esta sentencia nos da como resultado el tama&amp;#x00F1;o en bytes del tipo de dato double.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>sizeof(float);</text><feedback>Incorrecta! Esta sentencia nos da como resultado el tama&amp;#x00F1;o en bytes del tipo de dato float.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>sizeof(char);</text><feedback>Incorrecta! Esta sentencia nos da como resultado el tama&amp;#x00F1;o en bytes del tipo de dato char.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x00BF;Cu&amp;#x00E1;l es el tama&amp;#x00F1;o en bytes del tipo de dato char?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>1 byte</text><feedback>Correcta! Este es el tama&amp;#x00F1;o en bytes del tipo de dato char.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2 bytes</text><feedback>Incorrecta! Este es el tama&amp;#x00F1;o en bytes del tipo de dato int.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>4 bytes</text><feedback>Incorrecta! Este es el tama&amp;#x00F1;o en bytes del tipo de dato float.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>8 bytes</text><feedback>Incorrecta! Este es el tama&amp;#x00F1;o en bytes del tipo de dato double.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Pruebin III</exercise-subtitle>
+<instructions>Debe elegir una respuesta seg&amp;#x00FA;n sus conocimientos para cada una de las preguntas planteadas a continuaci&amp;#x00F3;n:</instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Respuestas correctas: </correct-answers>
+<show-answer-caption>Mostrar respuestas</show-answer-caption>
+<include-hint>0</include-hint>
+<include-show-answer>0</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Usted obtuvo: </your-score-is>
+<correct-indicator>Correcto!</correct-indicator>
+<incorrect-indicator>Incorrecto!</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Preguntas completadas hasta el momento: </completed-so-far>
+<exercise-completed>Ha completado correctamente el pruebin.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Se acab&amp;#x00F3; el tiempo l&amp;#x00ED;mite!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Calibri</font-face>
+<font-size>small</font-size>
+<page-bg-color>#0088ec</page-bg-color>
+<title-color>#ffffff</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#004171</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Verificar respuestas!</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>&amp;#x003E;&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;&amp;#x003C;</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Mostrar todas las preguntas</show-all-questions-caption>
+<show-one-by-one-caption>Mostrar preguntas una por una</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

@@ -1,0 +1,701 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0053)http://www.internautas.org/curso_servidores/mysql.php -->
+<HTML><HEAD><TITLE>Asociacion de internautas</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<STYLE type=text/css>.textbox {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; SCROLLBAR-FACE-COLOR: #cccccc; FONT-SIZE: x-small; BACKGROUND: white; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; BORDER-LEFT: #000000 1px solid; SCROLLBAR-SHADOW-COLOR: #ffffff; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #ffffff; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; TEXT-ALIGN: left
+}
+TD {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+BODY {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+</STYLE>
+
+<SCRIPT language=javascript>
+<!--
+
+function openwindow(){
+	window.open ("","Help","toolbar=no,location=no,directories=no,status=no,scrollbars=yes,resizable=no,copyhistory=no,width=600,height=400");
+}
+
+//-->
+</SCRIPT>
+
+<SCRIPT language=javascript>
+
+function init() {
+
+}
+</SCRIPT>
+
+<META content="MSHTML 5.50.4522.1800" name=GENERATOR></HEAD>
+<BODY text=#000000 vLink=#101070 link=#101070 bgColor=#ffffff onload=init()>
+<CENTER>
+<TABLE cellSpacing=0 cellPadding=0 width=760 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD align=left>
+      <DIV align=center>
+      <TABLE cellSpacing=0 cellPadding=0 width=760 border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=bottom width=480 rowSpan=2><IMG height=76 
+            alt="Asociacion de Internautas" src="mysql_archivos/l1.gif" 
+            width=507></TD>
+          <TD vAlign=center width=280 colSpan=2>
+            <P align=right>
+            <SCRIPT language=javascript>
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new Array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado")
+var montharray=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre")
+document.write("<font color='000000' face='Arial'>"+dayarray[day]+" "+daym+" de "+montharray[month]+" de "+year+"</font>")</SCRIPT>
+            </P></TD></TR>
+        <TR>
+          <TD vAlign=bottom width=145><MAP name=FPMap0><AREA shape=RECT 
+              coords=5,7,98,31 
+              href="http://www.internautas.org/search.php"><AREA shape=RECT 
+              coords=0,0,0,0></MAP><IMG height=52 src="mysql_archivos/l111.gif" 
+            width=158 useMap=#FPMap0 border=0></TD>
+          <TD vAlign=bottom width=135 rowSpan=3><MAP name=FPMap1><AREA 
+              shape=RECT coords=9,14,86,32 
+              href="http://adsl.internautas.org/"><AREA shape=RECT 
+              coords=8,37,86,55 href="http://cable.internautas.org/"><AREA 
+              shape=RECT coords=9,59,86,78 
+              href="http://movil.internautas.org/"><AREA shape=RECT 
+              coords=10,82,86,100 href="http://trac.internautas.org/"><AREA 
+              shape=RECT coords=9,103,87,121 
+              href="http://social.internautas.org/"><AREA shape=RECT 
+              coords=0,0,0,0></MAP><IMG height=136 alt="Comisiones de Trabajo" 
+            src="mysql_archivos/l2.gif" width=95 useMap=#FPMap1 border=0 
+            rectangle="(9,59) (86,78) http://movil.internautas.org"></TD></TR>
+        <TR>
+          <TD align=middle width=625 bgColor=#312173 colSpan=2><IMG height=55 
+            alt=Campañas src="mysql_archivos/banner.gif" width=640 
+            useMap=#banner border=0></TD></TR>
+        <TR>
+          <TD width=625 colSpan=2><MAP name=FPMap2><AREA shape=RECT 
+              coords=3,8,98,26 
+              href="http://www.internautas.org/asociarse.php"><AREA shape=RECT 
+              coords=106,7,201,26 
+              href="http://www.internautas.org/socios/index.php"><AREA 
+              shape=RECT coords=212,7,306,25 
+              href="http://www.internautas.org/defensor.php"><AREA shape=RECT 
+              coords=315,7,410,25 
+              href="http://www.internautas.org/curso_servidores/"><AREA 
+              shape=RECT coords=418,6,515,26 
+              href="http://www.internautas.org/seguridad/"><AREA shape=RECT 
+              coords=524,6,620,25 
+              href="http://www.internautas.org/documentos.php"><AREA shape=RECT 
+              coords=0,0,0,0></MAP><IMG height=29 alt="Menus accesos rapidos" 
+            src="mysql_archivos/l3.gif" width=665 useMap=#FPMap2 border=0 
+            rectangle="(212,7) (306,25) http://www.internautas.org/defensor.php"></TD></TR></TBODY></TABLE></DIV>
+      <DIV align=center>
+      <TABLE cellSpacing=0 cellPadding=0 width=759 border=0>
+        <TBODY>
+        <TR>
+          <TD width=760 bgColor=#ffffff 
+      height=4></TD></TR></TBODY></TABLE></DIV><MAP name=banner><AREA 
+        title="Campa por el futuro del SERVICIO UNIVERSAL" shape=RECT 
+        alt="Por el futuro del SERVICIO UNIVERSAL" coords=35,4,634,50 
+        href="http://www.internautas.org/article.php?sid=90&amp;mode=thread&amp;order=0"><AREA 
+        shape=RECT coords=0,0,0,0></MAP></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=760 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top rowSpan=15>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#101070>
+          <TD bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD><IMG height=10 alt="" src="mysql_archivos/cl.gif" width=7></TD>
+          <TD><FONT color=#ffffff size=1><B>Menú principal</B></FONT></TD>
+          <TD align=right><IMG height=10 alt="" src="mysql_archivos/cr.gif" 
+            width=7></TD>
+          <TD align=right bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD background=mysql_archivos/sl.gif><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT size=1>
+                  <SCRIPT language=JavaScript> function openTest(){sub1=window.open("http://www.internautas.org/test.html", "test", "scrollbars=0, toolbars=0, resizable=yes, width=150,height=268");}</SCRIPT>
+                  <A href="javascript:openTest();"><IMG height=95 
+                  src="mysql_archivos/test.gif" width=120 border=0></A> 
+                  <BR><BR><BR><BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/quienes.php">Quiénes 
+                  somos</A> <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/asociarse.php">Asociarse</A> 
+                  <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/defensor.php">Defensor 
+                  Internauta</A> <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/boletin.php">Boletín 
+                  Asociación</A> <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/curso_servidores/boletin.php">Boletín 
+                  Cursos</A> <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/noticias.php">Archivo 
+                  Noticias</A> <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/documentos.php">Documentos</A> 
+                  <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/buscador.php">Multibuscador</A> 
+                  <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/links.php">Enlaces</A> <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/COLABORA.html">Colabora</A> 
+                  <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/humor.php">Humor</A> 
+                  <BR><BR><BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/index.php">Portada</A> <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/topics.php">Temas</A> <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/sections.php">Secciones</A> 
+                  <BR>
+                  <CENTER><BR><A target=_top 
+                  href="http://www.internautas.org/sections.php?op=listarticles&amp;secid=1">La 
+                  opinión</A> <BR><A target=_top 
+                  href="http://www.internautas.org/sections.php?op=listarticles&amp;secid=2">El 
+                  Comentario</A></CENTER><BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/faq.php">Ayuda</A> <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/top.php">Top 10</A> <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/friend.php">Recomiéndanos</A> 
+                  <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/pinicio.php">Tu página de 
+                  inicio</A> <BR><BR></LI></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD align=right background=mysql_archivos/sr.gif><IMG height=3 
+            alt="" src="mysql_archivos/pix.gif" width=3></TD></TR>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#101070>
+          <TD bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD><IMG height=10 alt="" src="mysql_archivos/cl.gif" width=7></TD>
+          <TD><FONT color=#ffffff size=1><B>Comisiones</B></FONT></TD>
+          <TD align=right><IMG height=10 alt="" src="mysql_archivos/cr.gif" 
+            width=7></TD>
+          <TD align=right bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD background=mysql_archivos/sl.gif><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT size=1>
+                  <LI><A target=_blank 
+                  href="http://adsl.internautas.org/">ADSL</A> <BR>
+                  <LI><A target=_blank 
+                  href="http://cable.internautas.org/">Cable</A> <BR>
+                  <LI><A target=_blank 
+                  href="http://movil.internautas.org/">Movil</A> <BR>
+                  <LI><A target=_blank 
+                  href="http://social.internautas.org/">Social</A> <BR>
+                  <LI><A target=_blank 
+                  href="http://trac.internautas.org/">TRAC</A> 
+              </LI></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD align=right background=mysql_archivos/sr.gif><IMG height=3 
+            alt="" src="mysql_archivos/pix.gif" width=3></TD></TR>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#101070>
+          <TD bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD><IMG height=10 alt="" src="mysql_archivos/cl.gif" width=7></TD>
+          <TD><FONT color=#ffffff size=1><B>Zona solo Socios</B></FONT></TD>
+          <TD align=right><IMG height=10 alt="" src="mysql_archivos/cr.gif" 
+            width=7></TD>
+          <TD align=right bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD background=mysql_archivos/sl.gif><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT size=1>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/socios/index.php">Zona 
+                  socios</A> <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/socios/user.php">Regístrate</A> 
+                  <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/socios/submit.php">Envíanos 
+                  tu opinión</A> <BR></LI></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD align=right background=mysql_archivos/sr.gif><IMG height=3 
+            alt="" src="mysql_archivos/pix.gif" width=3></TD></TR>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#101070>
+          <TD bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD><IMG height=10 alt="" src="mysql_archivos/cl.gif" width=7></TD>
+          <TD><FONT color=#ffffff size=1><B>Login</B></FONT></TD>
+          <TD align=right><IMG height=10 alt="" src="mysql_archivos/cr.gif" 
+            width=7></TD>
+          <TD align=right bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD background=mysql_archivos/sl.gif><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT size=1>Si ya te has dado de alta y el sistema no te 
+                  reconoce como socio, entra aquí para hacer login <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/user.php">Login</A> 
+                  <BR></LI></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD align=right background=mysql_archivos/sr.gif><IMG height=3 
+            alt="" src="mysql_archivos/pix.gif" width=3></TD></TR>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#101070>
+          <TD bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD><IMG height=10 alt="" src="mysql_archivos/cl.gif" width=7></TD>
+          <TD><FONT color=#ffffff size=1><B>Participar</B></FONT></TD>
+          <TD align=right><IMG height=10 alt="" src="mysql_archivos/cr.gif" 
+            width=7></TD>
+          <TD align=right bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD background=mysql_archivos/sl.gif><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT size=1>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/participar.php">Proyectos 
+                  para participar</A> <BR><BR><A target=_top 
+                  href="http://www.stop-pedofilia.net/"><IMG height=50 
+                  src="mysql_archivos/stopedof.gif" width=130 border=0></A> 
+                  <BR>La sociedad civil desempeña un papel esencial en la 
+                  prevención y la protección de los niños frente a la 
+                  explotación sexual <BR><BR><A target=_top 
+                  href="http://www.internautas.org/seti.php"><IMG height=20 
+                  src="mysql_archivos/seti.gif" width=120 border=0></A> 
+                  <BR>PROYECTO SETI <BR><BR></LI></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD align=right background=mysql_archivos/sr.gif><IMG height=3 
+            alt="" src="mysql_archivos/pix.gif" width=3></TD></TR>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#101070>
+          <TD bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD><IMG height=10 alt="" src="mysql_archivos/cl.gif" width=7></TD>
+          <TD><FONT color=#ffffff size=1><B>Campañas</B></FONT></TD>
+          <TD align=right><IMG height=10 alt="" src="mysql_archivos/cr.gif" 
+            width=7></TD>
+          <TD align=right bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD background=mysql_archivos/sl.gif><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT size=1>
+                  <LI><A 
+                  href="http://www.internautas.org/comebanners/index.html">ComeBanners</A> 
+                  <BR>
+                  <LI><A 
+                  href="http://www.internautas.org/ignorer/index.html">Ignorer</A> 
+                  <BR>
+                  <LI><A 
+                  href="http://social.internautas.org/campriv.htm">Privacidad</A> 
+                  </LI></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD align=right background=mysql_archivos/sr.gif><IMG height=3 
+            alt="" src="mysql_archivos/pix.gif" width=3></TD></TR>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#101070>
+          <TD bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD><IMG height=10 alt="" src="mysql_archivos/cl.gif" width=7></TD>
+          <TD><FONT color=#ffffff size=1><B>Manuales y cursos</B></FONT></TD>
+          <TD align=right><IMG height=10 alt="" src="mysql_archivos/cr.gif" 
+            width=7></TD>
+          <TD align=right bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD background=mysql_archivos/sl.gif><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT size=1>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/curso_servidores/">Servidor 
+                  de Internet</A> <BR>
+                  <LI><A target=_top 
+                  href="http://www.internautas.org/seguridad">Seguridad 
+                  </A><BR></LI></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD align=right background=mysql_archivos/sr.gif><IMG height=3 
+            alt="" src="mysql_archivos/pix.gif" width=3></TD></TR>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#101070>
+          <TD bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD><IMG height=10 alt="" src="mysql_archivos/cl.gif" width=7></TD>
+          <TD><FONT color=#ffffff size=1><B>Contactar</B></FONT></TD>
+          <TD align=right><IMG height=10 alt="" src="mysql_archivos/cr.gif" 
+            width=7></TD>
+          <TD align=right bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD background=mysql_archivos/sl.gif><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT size=1>
+                  <LI><A 
+                  href="mailto:administracion@internautas.org">Administracion</A> 
+                  <BR>
+                  <LI><A href="mailto:jrem@internautas.org">webmaster</A> <BR>
+                  <LI><A href="mailto:presidente@internautas.org">Presidente</A> 
+                  </LI></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD align=right background=mysql_archivos/sr.gif><IMG height=3 
+            alt="" src="mysql_archivos/pix.gif" width=3></TD></TR>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#101070>
+          <TD bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD><IMG height=10 alt="" src="mysql_archivos/cl.gif" width=7></TD>
+          <TD><FONT color=#ffffff size=1><B>Web Colaboradora de la 
+            Semana</B></FONT></TD>
+          <TD align=right><IMG height=10 alt="" src="mysql_archivos/cr.gif" 
+            width=7></TD>
+          <TD align=right bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD background=mysql_archivos/sl.gif><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT size=1><A target=_top 
+                  href="http://www.pedramol.com/"><BIG><BIG><B>PEDRAMOL</B></BIG></BIG></A> 
+                  <BR>PEDRAMOL FACTORY<BR><BR>Pedramol Factory es una 
+                  organización sin fines de lucro, que pretende mostrar a todos 
+                  sus visitantes una pequeña guía de algunos de los pescados y 
+                  mariscos mas comunes que podemos encontrar en nuestras costas. 
+                  <BR></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD align=right background=mysql_archivos/sr.gif><IMG height=3 
+            alt="" src="mysql_archivos/pix.gif" width=3></TD></TR>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#101070>
+          <TD bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD><IMG height=10 alt="" src="mysql_archivos/cl.gif" width=7></TD>
+          <TD><FONT color=#ffffff size=1><B>Efemérides</B></FONT></TD>
+          <TD align=right><IMG height=10 alt="" src="mysql_archivos/cr.gif" 
+            width=7></TD>
+          <TD align=right bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD background=mysql_archivos/sl.gif><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT size=1>
+                  <CENTER><B>Tal Día como 
+              Hoy...</B></CENTER><BR></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD align=right background=mysql_archivos/sr.gif><IMG height=3 
+            alt="" src="mysql_archivos/pix.gif" width=3></TD></TR>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#101070>
+          <TD bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD><IMG height=10 alt="" src="mysql_archivos/cl.gif" width=7></TD>
+          <TD><FONT color=#ffffff size=1><B>¿ Quien esta ?</B></FONT></TD>
+          <TD align=right><IMG height=10 alt="" src="mysql_archivos/cr.gif" 
+            width=7></TD>
+          <TD align=right bgColor=#ffffff><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD background=mysql_archivos/sl.gif><IMG height=3 alt="" 
+            src="mysql_archivos/pix.gif" width=3></TD>
+          <TD width="100%">
+            <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT size=1>
+                  <CENTER>Hay 35 visitante y 1 Socios viendo la WEB<BR>Estas 
+                  como usuario anonimo. Si eres socio de la AI puedes 
+                  registrarte pulsando <A 
+                  href="http://www.internautas.org/socios/user.php">aqui</A>. 
+                  </CENTER></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD align=right background=mysql_archivos/sr.gif><IMG height=3 
+            alt="" src="mysql_archivos/pix.gif" width=3></TD></TR>
+        <TR bgColor=#101070>
+          <TD colSpan=3><IMG height=1 src="mysql_archivos/pix.gif" 
+        width=1></TD></TR></TBODY></TABLE><BR></TD>
+    <TD>&nbsp;&nbsp;</TD>
+    <TD vAlign=top width="100%">
+      <TABLE width=614 border=0>
+        <TBODY>
+        <TR>
+          <TD width=606 bgColor=#400080>
+            <P align=center><FONT face="Times New Roman" 
+            color=#ffffff><EM><STRONG><BIG><BIG><BIG>CURSO DE SERVIDORES DE 
+            INTERNET EN WINDOWS</BIG></BIG></BIG></STRONG></EM></FONT></P></TD></TR>
+        <TR>
+          <TD width=606><FONT size=3>&nbsp;&nbsp; </FONT></TD></TR></TBODY></TABLE>
+      <CENTER></CENTER>
+      <DIV></DIV>
+      <DIV align=center>
+      <CENTER>
+      <TABLE height=5 cellSpacing=4 cellPadding=2 width=614 border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=center align=middle width=656 height=1>
+            <P align=center>&nbsp; &nbsp;<IMG height=100 
+            src="mysql_archivos/mysql00.gif" width=280 
+            border=0>&nbsp;&nbsp;&nbsp; <IMG height=100 
+            src="mysql_archivos/mysql00a.gif" width=250 border=0></P></TD></TR>
+        <TR>
+          <TD align=middle width=634 height=1>
+            <P align=left><FONT face=Arial size=2>Continuando con los 
+            complementos para nuestro Servidor, esta vez nos vamos a dedicar a 
+            instalar un Gestor de Bases de Datos Relacionales. En este caso 
+            hemos elegido MySQL, ya que es el mas popular gestor de bases de 
+            datos SQL y además, como no, gratuito (es Open 
+            Source)&nbsp;&nbsp;&nbsp; :))))))</FONT></P>
+            <P align=left><FONT face=Arial size=2>La primera tarea a realizar es 
+            la de bajarnos el programa. Vamos a bajarnos en el mismo archivo 
+            tanto el Servidor como el cliente. Pulsa </FONT><FONT face=Arial 
+            size=3><STRONG><A 
+            href="http://www.mysql.com/Downloads/MySQL-3.23/mysql-3.23.33-win.zip">aquí</A></STRONG></FONT><FONT 
+            face=Arial size=2>. Son algo más de 9 Mb, así que tardarás un poco 
+            :(</FONT></P>
+            <P align=left><FONT face=Arial size=2>Ahora vamos a instalarlo. Es 
+            un archivo comprimido con ZIP, con lo que tendrás que descomprimirlo 
+            en una carpeta para ejecutar la instalación.</FONT></P>
+            <P align=center><IMG height=430 src="mysql_archivos/mysql01.gif" 
+            width=553 border=0></P>
+            <BLOCKQUOTE>
+              <P align=left><FONT face=Arial size=2>1º- Abre la carpeta donde 
+              has descomprimido el fichero, y pulsa sobre el ejecutable 
+              <B>Setup.exe</B> para iniciar la Instalación. La primera pantalla 
+              es de Bienvenida y como siempre recomendando que cierres todos los 
+              programas que estes ejecutando, por si acaso.&nbsp; Pulsa el 
+              botón&nbsp;<SPAN 
+              style="BACKGROUND-COLOR: rgb(192,192,192)"><STRONG> Next 
+              </STRONG></SPAN>.</FONT></P>
+              <P align=center><IMG height=365 src="mysql_archivos/mysql02.gif" 
+              width=484 border=0></P>
+              <P align=left><FONT face=Arial size=2>2º Ahora viene una pantalla 
+              con información de la verison que estamos instalando y con una 
+              observación para los que usais NT y queréis instalar MySQL como 
+              servicio (solo debeis crear un fichero llamado 
+              <I><B>my.cnf</B></I> con dos líneas que son <I>[mysqld]</I> y 
+              <I>basedir=C:/mysql/</I> ). Pulsa el botón&nbsp;<STRONG><SPAN 
+              style="BACKGROUND-COLOR: rgb(192,192,192)"> 
+              Next</SPAN></STRONG></FONT></P>
+              <P align=center><IMG height=366 src="mysql_archivos/mysql03.gif" 
+              width=486 border=0></P>
+              <P align=left><FONT face=Arial size=2>3º Nos pide confirmación del 
+              directorio de la instalación que por defecto es <A 
+              href="file:///C:/mysql">C:\mysql</A> Si quereis cambiarlo pulsáis 
+              browse y elegís donde.. Pulsa el botón&nbsp;<STRONG><SPAN 
+              style="BACKGROUND-COLOR: rgb(192,192,192)"> 
+              Next&nbsp;</SPAN></STRONG></FONT></P>
+              <P align=center><IMG height=365 src="mysql_archivos/mysql04.gif" 
+              width=485 border=0></P>
+              <P align=left><FONT face=Arial size=2>4º Ahora podemos elegir el 
+              tipo de instalación que queremos. Vamos como siempre a instalar la 
+              típica. Pulsar&nbsp;&nbsp;<STRONG><SPAN 
+              style="BACKGROUND-COLOR: rgb(192,192,192)"> 
+              Next&nbsp;&nbsp;</SPAN></STRONG></FONT></P>
+              <P align=center><IMG height=364 src="mysql_archivos/mysql05.gif" 
+              width=485 border=0></P>
+              <CENTER></CENTER>
+              <P align=left><FONT face=Arial size=2>5º Pues ya está. Ha 
+              terminado la instalación, y el programa ya se ha instalado en el 
+              directorio <A href="file:///c:/mysql">c:\mysql</A>. Pero, 
+              atención, que no instala ningún acceso directo en el Menu 
+              Programas (tendréis que ponerlo vosotros). Tenemos además una 
+              aplicación para manejar MySQL. Esta aplicación se encuentra en <A 
+              href="file:///c:/mysql/bin/winmysqladmin.exe">c:\mysql\bin\winmysqladmin.exe</A> 
+              (podéis ejecutarla desde MSDOS o desde el explorador de Windows, 
+              pulsando dos veces sobre el fichero winmysqladmin.exe ). La 
+              primera vez nos va a solicitar los datos de usuario y Password 
+              para crear el fichero <I>my.ini</I> (se instala en el directorio 
+              c:\windows)</FONT></P>
+              <CENTER>
+              <P align=center><IMG height=290 src="mysql_archivos/mysql07.gif" 
+              width=487 border=0></P>
+              <P align=left>6º <FONT face=Arial size=2>El programa winmysqladmin 
+              os ayudará a mantener y controlar el funcionamiento de mysql. 
+              Podeis incluir en vuestro menú de inicio éste programa para poner 
+              en marcha o parar mysql.</FONT></P>
+              <P align=center><IMG height=367 src="mysql_archivos/mysql08.gif" 
+              width=600 border=0></P>
+              <P align=left><FONT face=Arial size=2>7</FONT>º <FONT face=Arial 
+              size=2>Para arrancar MySQL tenemos tres ficheros posibles (dentro 
+              del directorio c:\mysql\bin\: <B><I>mysqld.exe</I></B> que es el 
+              genérico de los sistemas 386 en adelante. 
+              <B><I>mysqld-opt.exe</I></B> para equipos pentium y 
+              <I><B>mysqld-nt.exe</B></I> para los basados en NT. Para detener 
+              MySQL lo haremos mediante <B><I>mysqlshutdown.exe</I></B> 
+              (acordaros de hacerlo antes de apagar el ordenador)</FONT></P>
+              <P align=center><IMG height=334 src="mysql_archivos/mysql09.gif" 
+              width=572 border=0></P>
+              <P align=left><FONT face=Arial size=2>La forma de crear una base 
+              de datos es con la orden</FONT></P>
+              <P align=left><FONT face=Arial size=2>&nbsp;<B>mysqladmin -u root 
+              create nombrebasededatos</B></FONT></P>
+              <P align=left><FONT face=Arial size=2>Ahora ya podéis disfrutar de 
+              éste magnifico gestor de Bases de Datos. Si no lo conocéis, ya es 
+              hora de que empecéis a aprenderlo, así que a&nbsp; buscar en 
+              Internet que encontrareis mas de un 
+            Manual)</FONT></P></BLOCKQUOTE></CENTER></TD></TR>
+        <TR>
+          <TD align=middle width=653 height=5>
+            <P align=center><SMALL><STRONG>¿Tienes alguna duda o comentario?. <A 
+            href="mailto:jrem@internautas.org">Escribeme e intentare 
+            resolverla</A></STRONG></SMALL></P></TD></TR></TBODY></TABLE></DIV>
+      <DIV align=center>
+      <CENTER>
+      <TABLE height=1 cellSpacing=4 cellPadding=2 width=633 border=0>
+        <TBODY>
+        <TR>
+          <TD align=middle width=633 height=1>
+            <HR width=614 color=#400080 SIZE=1>
+          </TD></TR></TBODY></TABLE></CENTER></DIV></CENTER></TD></TR></TBODY></TABLE></TD></TR></TABLE><BR><BR>
+<CENTER><FONT size=1>Logos y marcas propiedad de sus respectivos autores.<BR>Los 
+comentarios son propiedad y responsabilidad de cada autor.<BR><B>© 1998-2001 
+Asociación de Internautas</B> - http://www.internautas.org - <A target=_blank 
+href="http://www.internautas.org/ClavesPGP/">CLAVES PGP</A><BR>internautas.org 
+está alojado con <A target=_blank 
+href="http://aseara.com/">salman</A><BR></FONT></CENTER></CENTER></BODY></HTML>

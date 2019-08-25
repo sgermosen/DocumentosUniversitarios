@@ -1,0 +1,52 @@
+MICROSOFT EXCEL PARA PYMES 2 
+por GARCIA FRONTI 
+Isbn 9879727924
+Indice del Contenido
+
+
+
+Prólogo
+Objetivo y alcance
+Temario
+Instalación de los archivos de aplicación
+Explicación general sobre el manejo de los archivos
+Aclaraciones
+Actualizaciones y comentarios
+Archivos con aplicaciones
+
+Primera Parte: Aplicaciones de Gestión
+
+1.1. Libro de Banco
+1.2. Cheques de Terceros
+1.3. Ingresos y Gastos
+1.4. Control de Pagos
+1.5. Inventario
+1.6. Comisiones de los Vendedores
+
+Segunda Parte: Sistema Integrado
+
+2.1. Introducción
+2.2. Base de Datos
+2.3. Circuito de Clientes
+2.3.1. Ventas a Clientes
+2.3.2. Cobranza
+2.3.3 Cuentas Corrientes Clientes
+2.4. Circuito de Proveedores
+2.4.1. Compra a Proveedores
+2.4.2. Pago a Proveedores
+2.4.3. Cuentas Corrientes Proveedores
+2.5. Circuito de Dirección
+2.5.1. Libro Banco
+2.5.2. Tablero de Control
+
+Tercera Parte: Tablas Dinámicas
+
+3.1. Introducción
+3.2. ¿Cómo crear una tabla dinámica?
+3.3. ¿Cómo mejorar el aspecto de la tabla dinámica?
+
+Anexo
+Cómo contactarse con los autores
+Excel para PyMEs en Internet
+Autores
+

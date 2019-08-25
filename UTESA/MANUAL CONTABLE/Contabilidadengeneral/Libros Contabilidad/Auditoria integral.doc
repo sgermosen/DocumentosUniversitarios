@@ -1,0 +1,412 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang11274\deflangfe11274{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f35\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}{\f36\froman\fcharset238\fprq2 Times New Roman CE;}
+{\f37\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f39\froman\fcharset161\fprq2 Times New Roman Greek;}{\f40\froman\fcharset162\fprq2 Times New Roman Tur;}{\f41\froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f42\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f43\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f46\fswiss\fcharset238\fprq2 Arial CE;}{\f47\fswiss\fcharset204\fprq2 Arial Cyr;}{\f49\fswiss\fcharset161\fprq2 Arial Greek;}
+{\f50\fswiss\fcharset162\fprq2 Arial Tur;}{\f51\fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f52\fswiss\fcharset178\fprq2 Arial (Arabic);}{\f53\fswiss\fcharset186\fprq2 Arial Baltic;}{\f386\fswiss\fcharset238\fprq2 Tahoma CE;}
+{\f387\fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f389\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f390\fswiss\fcharset162\fprq2 Tahoma Tur;}{\f391\fswiss\fcharset177\fprq2 Tahoma (Hebrew);}{\f392\fswiss\fcharset178\fprq2 Tahoma (Arabic);}
+{\f393\fswiss\fcharset186\fprq2 Tahoma Baltic;}{\f395\fswiss\fcharset222\fprq2 Tahoma (Thai);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red255\green255\blue255;
+}{\stylesheet{\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 \snext0 Normal;}{\s1\qc \li0\ri0\sb240\sl360\slmult1\keepn\widctlpar\brdrb\brdremboss\brdrw30\brsp20 
+\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 \sbasedon0 \snext0 heading 1;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\s15\qj \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 
+\fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 \sbasedon0 \snext15 Body Text;}{\s16\qc \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \b\fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 \sbasedon0 \snext16 Title;}{
+\s17\qc \li0\ri0\sb240\sl360\slmult1\widctlpar\brdrb\brdremboss\brdrw30\brsp20 \faauto\adjustright\rin0\lin0\itap0 \b\fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 \sbasedon0 \snext0 \ssemihidden caption;}{\s18\ql \li0\ri0\widctlpar
+\tqc\tx4419\tqr\tx8838\faauto\adjustright\rin0\lin0\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 \sbasedon0 \snext18 footer;}{\*\cs19 \additive \sbasedon10 page number;}{\s20\ql \li0\ri0\widctlpar
+\tqc\tx4419\tqr\tx8838\faauto\adjustright\rin0\lin0\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 \sbasedon0 \snext20 header;}{\s21\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \cbpat9 
+\f35\fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 \sbasedon0 \snext21 \ssemihidden Document Map;}{\*\cs22 \additive \ul\cf2 \sbasedon10 Hyperlink;}{\*\cs23 \additive \ul\cf12 \sbasedon10 FollowedHyperlink;}}{\*\listtable
+{\list\listtemplateid-830959790{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\fbias0 \fi-720\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levellegal\levelspace0\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\fbias0 \fi-720\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal
+\levelspace0\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\fbias0 \fi-1080\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0
+\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\fbias0 \fi-1080\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0\levelindent0
+{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\fbias0 \fi-1440\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0\levelindent0
+{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\fbias0 \fi-1800\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0
+\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\fbias0 \fi-1800\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levellegal\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\fbias0 \fi-2160\li2160\jclisttab\tx2160\lin2160 }{\listname ;}\listid96798700}
+{\list\listtemplateid225580940\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat2\levelspace0\levelindent0{\leveltext\'01\'96;}{\levelnumbers;}\f0\fbias0 \fi-397\li397\jclisttab\tx397\lin397 }{\listname 
+;}\listid151483725}{\list\listtemplateid-748406236\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat2\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360
+\jclisttab\tx360\lin360 }{\listname ;}\listid323170843}{\list\listtemplateid1417067502\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat20\levelspace0\levelindent0{\leveltext\'01\u-3880 ?;}{\levelnumbers;}
+\f10\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid508637925}{\list\listtemplateid1625447910{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers
+\'01;}\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\fbias0 \fi-720\li1080
+\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\fbias0 \fi-720\li1440\jclisttab\tx1440\lin1440 }
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\fbias0 \fi-1080\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc0
+\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\fbias0 \fi-1080\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\fbias0 \fi-1440\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\fbias0 \fi-1800\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc0
+\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\fbias0 \fi-1800\li4320\jclisttab\tx4320\lin4320 }
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levellegal\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\fbias0 \fi-2160\li5040
+\jclisttab\tx5040\lin5040 }{\listname ;}\listid530849147}{\list\listtemplateid494320770\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat2\levelspace0\levelindent0{\leveltext\'01\'96;}{\levelnumbers;}\f0\fbias0 
+\fi-397\li851\jclisttab\tx851\lin851 }{\listname ;}\listid721245829}{\list\listtemplateid-1279779198\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat3\levelspace0\levelindent0{\leveltext\'01\'96;}{\levelnumbers;}
+\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid1427649791}{\list\listtemplateid201981969\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'00);}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid1432816323}{\list\listtemplateid225580940\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat2\levelspace0\levelindent0
+{\leveltext\'01\'96;}{\levelnumbers;}\f0\fbias0 \fi-397\li397\jclisttab\tx397\lin397 }{\listname ;}\listid1506552644}{\list\listtemplateid225580940\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat2\levelspace0
+\levelindent0{\leveltext\'01\'96;}{\levelnumbers;}\f0\fbias0 \fi-397\li397\jclisttab\tx397\lin397 }{\listname ;}\listid1607926272}{\list\listtemplateid225580940\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat2
+\levelspace0\levelindent0{\leveltext\'01\'96;}{\levelnumbers;}\f0\fbias0 \fi-397\li397\jclisttab\tx397\lin397 }{\listname ;}\listid1866946877}{\list\listtemplateid52354204\listsimple{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00);}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid2089571907}{\list\listtemplateid1417067502\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat20\levelspace0\levelindent0{\leveltext\'01\u-3880 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid2144226159}}{\*\listoverridetable{\listoverride\listid530849147\listoverridecount0\ls1}
+{\listoverride\listid96798700\listoverridecount0\ls2}{\listoverride\listid323170843\listoverridecount0\ls3}{\listoverride\listid1427649791\listoverridecount0\ls4}{\listoverride\listid1432816323\listoverridecount0\ls5}{\listoverride\listid2089571907
+\listoverridecount0\ls6}{\listoverride\listid2144226159\listoverridecount0\ls7}{\listoverride\listid508637925\listoverridecount0\ls8}{\listoverride\listid721245829\listoverridecount0\ls9}{\listoverride\listid1506552644\listoverridecount0\ls10}
+{\listoverride\listid151483725\listoverridecount0\ls11}{\listoverride\listid1607926272\listoverridecount0\ls12}{\listoverride\listid1866946877\listoverridecount0\ls13}}{\*\rsidtbl \rsid2949959\rsid4922202}{\*\generator Microsoft Word 10.0.2627;}{\info
+{\title INDICE}{\author OFITEXTOS}{\operator Usuario}{\creatim\yr2002\mo2\dy5\hr13\min52}{\revtim\yr2002\mo4\dy14\hr17\min5}{\version3}{\edmins2}{\nofpages6}{\nofwords3571}{\nofchars19642}{\*\company OFITEX2}{\nofcharsws23167}{\vern16437}}
+\paperw11907\paperh16840\margl1298\margr1298\margt1298\margb1298 \deftab709\widowctrl\ftnbj\aenddoc\pgnstart0\hyphhotz425\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dghspace120\dgvspace120\dghorigin1701
+\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\nolnhtadjtbl\rsidroot2949959 \fet0\sectd \psz9\pgnrestart\pgnstarts0\linex0\headery1298\footery1298\colsx709\endnhere\titlepg\sectdefaultcl\sftnbj {\*\pnseclvl1
+\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \s1\ql \li0\ri0\sl240\slmult0\keepn\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 
+\b\fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 {\f1\fs20\insrsid4922202 
+\par }\pard \s1\qc \li0\ri0\sl240\slmult0\keepn\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 {\f1\fs24\insrsid4922202 Auditoria integral
+\par }\pard \s1\ql \li0\ri0\sl240\slmult0\keepn\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 {\f1\fs20\insrsid4922202 Indice
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 {\field\flddirty{\*\fldinst {\b\f1\fs20\insrsid4922202  HYPERLINK  \\l "ntro" }{\b\f1\fs20\insrsid2949959 {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b0200000008000000050000006e00740072006f00000000}}}{\fldrslt {\cs22\b\f1\fs20\cf2\insrsid4922202 1. Intro{\*\bkmkstart _Hlt680339}d{\*\bkmkend _Hlt680339}ucci\'f3n
+\par }\pard\plain \s1\ql \li0\ri0\sl240\slmult0\keepn\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 }}\pard\plain \s1\ql \li0\ri0\sl240\slmult0
+\keepn\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 {\field\flddirty{\*\fldinst {\f1\fs20\lang3082\langfe11274\langnp3082\insrsid4922202  HYPERLINK  \\l "def" }{
+\f1\fs20\lang3082\langfe11274\langnp3082\insrsid2949959 {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b02000000080000000400000064006500660000005c5464}}}{\fldrslt {\cs22\f1\fs20\cf2\insrsid4922202 2. Defi{\*\bkmkstart _Hlt680350}n{\*\bkmkend _Hlt680350}
+iciones y objetivos}}}{\f1\fs20\insrsid4922202 
+\par }{\field\flddirty{\*\fldinst {\f1\fs20\insrsid4922202  HYPERLINK  \\l "pre" }{\f1\fs20\insrsid2949959 {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b0200000008000000040000007000720065000000027504}}}{\fldrslt {\cs22\f1\fs20\cf2\insrsid4922202 3. Pr
+{\*\bkmkstart _Hlt680363}i{\*\bkmkend _Hlt680363}ncipios generales de auditoria integral}}}{\f1\fs20\insrsid4922202 
+\par }{\field\flddirty{\*\fldinst {\f1\fs20\insrsid4922202  HYPERLINK  \\l "no" }{\f1\fs20\insrsid2949959 {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b0200000008000000030000006e006f00000001}}}{\fldrslt {\cs22\f1\fs20\cf2\insrsid4922202 4. 
+{\*\bkmkstart _Hlt680372}N{\*\bkmkend _Hlt680372}ormativa.}}}{\f1\fs20\insrsid4922202 
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 {\field\flddirty{\*\fldinst {\b\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202  HYPERLINK  \\l "co\'e7" }{
+\b\f1\fs20\lang2058\langfe11274\langnp2058\insrsid2949959 {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b02000000080000000400000063006f00e7000000477604}}}{\fldrslt {\cs22\b\f1\fs20\cf2\insrsid4922202 5{\*\bkmkstart _Hlt680399}.{\*\bkmkend _Hlt680399}
+ Conclusiones}}}{\b\f1\fs20\insrsid4922202 
+\par }{\field\flddirty{\*\fldinst {\b\f1\fs20\insrsid4922202  HYPERLINK  \\l "bi" }{\b\f1\fs20\insrsid2949959 {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b020000000800000003000000620069000000ce}}}{\fldrslt {\cs22\b\f1\fs20\cf2\insrsid4922202 6. Bi
+{\*\bkmkstart _Hlt680416}b{\*\bkmkend _Hlt680416}liograf\'eda}}}{\insrsid4922202 
+\par 
+\par }{\b\f1\fs20\insrsid4922202 {\*\bkmkstart ntro}1. Introducci\'f3n
+\par }\pard\plain \s15\ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 {\f1\fs20\insrsid4922202 {\*\bkmkend ntro}El incremento de las relaciones entre pa\'ed
+ses, originado por los tratados de libre comercio, permiten que los mercados se expandan a nivel internacional, estimulando as\'ed la competitividad entre las empresas por ofrecer bienes y servicios de mejor calidad, volviendo d\'eda con d\'eda m\'e1s dif
+\'edciles las responsabilidades de los dirigentes de las empresas, requiriendo estos \'faltimos, informaci\'f3n objetiva y completa que le ayude en la toma de decisiones.
+\par Las nuevas tecnolog\'edas empresariales y las corrientes de la reingenir\'eda y calidad total, han motivado a que la Auditor\'eda incursione en nuevos enfoques logrando esto con la Auditor\'ed
+a Integral, la cual es utilizada como una herramienta que enfrenta las innovaciones gerenciales y administrativas garantizando la detecci\'f3n de desviaciones o deficiencias de la gesti\'f3
+n administrativa referentes a la eficiencia en el uso de los recursos y logros de objetivos, as\'ed como la eficacia en los resultados, la econom\'eda en t\'e9rminos de proporcionalidad y su relaci\'f3n costo\endash beneficio.
+\par En el presente trabajo, se le proporciona informaci\'f3n a fin de conocer sobre la Auditor\'eda Integral.
+\par En primer lugar, se parte de las definiciones y conceptos de la Auditor\'eda Integral, los principios generales que la rigen, luego las normativas sobre las cuales se desarrolla, Adem\'e1s se realiza una diferenciaci\'f3n con la Auditor\'ed
+a de Estados Financieros.
+\par }\pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par Objetivos
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Objetivo general:
+\par {\pntext\pard\plain\f10\fs20\lang2058\langfe11274\langnp2058 \loch\af10\dbch\af0\hich\f10 \'d8\tab}}\pard \ql \fi-360\li1069\ri0\sl240\slmult0\widctlpar\jclisttab\tx1069{\*\pn \pnlvlblt\ilvl0\ls7\pnrnot0\pnf10\pnstart20\pnindent360\pnsp120\pnhang 
+{\pntxtb \'d8}}\faauto\ls7\adjustright\rin0\lin1069\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Evaluar los sistemas de control, implantados por la Gerencia General que le permitan medir el rendimiento econ\'f3
+mico y los recurso financieros de la empresa.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Objetivos espec\'edficos:
+\par {\pntext\pard\plain\f10\fs20\lang2058\langfe11274\langnp2058 \loch\af10\dbch\af0\hich\f10 \'d8\tab}}\pard \ql \fi-360\li1069\ri0\sl240\slmult0\widctlpar\jclisttab\tx1069{\*\pn \pnlvlblt\ilvl0\ls8\pnrnot0\pnf10\pnstart20\pnindent360\pnsp120\pnhang 
+{\pntxtb \'d8}}\faauto\ls8\adjustright\rin0\lin1069\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Conocer la normativa que regula a la Auditor\'eda Integral.
+\par {\pntext\pard\plain\f10\fs20\lang2058\langfe11274\langnp2058 \loch\af10\dbch\af0\hich\f10 \'d8\tab}}\pard \ql \fi-357\li1066\ri0\sl240\slmult0\widctlpar\jclisttab\tx1069{\*\pn \pnlvlblt\ilvl0\ls8\pnrnot0\pnf10\pnstart20\pnindent360\pnsp120\pnhang 
+{\pntxtb \'d8}}\faauto\ls8\adjustright\rin0\lin1066\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Analizar el ambiente de aplicaci\'f3n de la Auditor\'eda Integral.
+\par {\pntext\pard\plain\f10\fs20\lang2058\langfe11274\langnp2058 \loch\af10\dbch\af0\hich\f10 \'d8\tab}}\pard \ql \fi-357\li1066\ri0\sl240\slmult0\widctlpar\jclisttab\tx1069{\*\pn \pnlvlblt\ilvl0\ls8\pnrnot0\pnf10\pnstart20\pnindent360\pnsp120\pnhang 
+{\pntxtb \'d8}}\faauto\ls8\adjustright\rin0\lin1066\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Verificar a trav\'e9s de la Utilizaci\'f3n de un conjunto estructurado de proceso tomando como objetivo la evaluaci\'f3n sistem\'e1
+tica y permanente del ente econ\'f3mico para una aseveraci\'f3n verificable.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par }{\b\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 {\*\bkmkstart def}2. Definiciones y objetivos{\*\bkmkend def}
+\par }{\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Es el proceso de obtener y evaluar objetivamente, en un per\'edodo determinado, evidencia relativa a la informaci\'f3n financiera, al comportamiento econ\'f3
+mico y al manejo de una entidad con la finalidad de informar sobre el grado de correspondencia entre aquellos y los criterios o indicadores establecidos o los comportamientos generalizados.
+\par }\pard\plain \s15\ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 {\f1\fs20\insrsid4922202 La Auditor\'eda Integral implica la ejecuci\'f3
+n de un trabajo con el trabajo o enfoque, por analog\'eda de las revisiones financieras, de cumplimiento, control interno y de gesti\'f3n, sistema y medio ambiente con los siguientes objetivos:
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang 
+{\pntxtb \'b7}}\faauto\ls3\adjustright\rin0\lin360\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+Determinar, si los Estados Financieros se presentan de acuerdo con los Principios de Contabilidad Generalmente Aceptados.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Determinar, si el ente ha cumplido, en e
+l desarrollo de sus operaciones con las disposiciones legales que le sean aplicables, sus reglamentos, los estatutos y las decisiones de los \'f3rganos de direcci\'f3n y administraci\'f3n.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Evaluar la estructura del control interno del ente con el alcance necesario para dictaminar sobre el mismo.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+Evaluar el grado de eficiencia en el logro de los objetivos previstos por el ente y el grado de eficiencia y eficacia con que se han manejado los recursos disponibles.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Evaluar los mecanismos, operaciones, procedimientos, derechos a usuarios, responsabilidad, facultades y aplicaciones espec\'ed
+ficas de control relacionadas con operaciones en computadora.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Evaluar el impacto medioambiental producido de manera directa o indirecta por empresas que presentan un perfil ambi
+ental diferente, condicionado por los riesgos aparentes asociados con sus procesos y productos; la edad, historia y estado de una planta, el marco jur\'eddico en el cual opera.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par }{\b\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 {\*\bkmkstart pre}3. Principios generales de auditoria integral{\*\bkmkend pre}
+\par }{\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Independencia: Determina que en todas las tareas relacionadas con la actividad, los miembros del equipo de auditores, deber\'e1
+n estar libres de toda clase de impedimentos personales profesionales o econ\'f3micos, que puedan limitar su autonom\'eda, interferir su labor o su juicio profesional.
+\par Objetividad: Establece que en todas las labores desarrolladas incluyen en forma primordial la obtenci\'f3n de evidencia, as\'ed como lo atinente a la formulaci\'f3n y emisi\'f3n del juicio profesional por parte del auditor, se deber\'e1
+ observar una actitud imparcial sustentada en la realidad y en la conciencia profesional.
+\par Permanencia: Determina que la labor debe ser tal la continuaci\'f3n que permita una supervisi\'f3n constante sobre las operaciones en todas sus etapas desde su nacimiento hasta su culminaci\'f3n, ejerciendo un
+ control previo o exente, concomitante y posterior por ello incluye la inspecci\'f3n y contrataci\'f3n del proceso decipional generador de actividades.
+\par Certificaci\'f3n: Este principio indica que por residir la responsabilidad exclusivamente en cabeza de contadores p\'fablicos, los informes y documentos suscritos por el auditor tienen la calidad de certeza es decir, tienen el sello de la fe p\'fa
+blica, de la refrenda de los hechos y de la atestaci\'f3n. Se entiende como fe p\'fablica el asentamiento o aceptaci\'f3n de lo dicho por aquellos que tienen una investidura para atestar, cuyas manifestaciones son revestidas de verdad y certeza.
+\par Integridad: Determina que las tareas deben cubrir en forma integral todas las operaciones, \'e1reas, bienes, funciones y dem\'e1s aspectos consustancialmente econ\'f3mico, incluido su entorno. Esta contempla, al ente econ\'f3
+mico como un todo compuesto por sus bienes, recursos, operaciones, resultados, etc.
+\par Planeamiento: Se debe definir los objetivos de la Auditor\'eda, el alcance y metodolog\'eda dirigida a conseguir esos logros.
+\par Supervisi\'f3n: El personal debe ser adecuadamente supervisado para determinar si se est\'e1n alcanzando los objetivos de la auditor\'eda y obtener evidencia suficiente, competente y relevante, permitiendo una base razonable para las opiniones del aud
+itor.
+\par Oportunidad: Determina que la labor debe ser eficiente en t\'e9rminos de evitar el da\'f1o, por lo que la inspecci\'f3n y verificaci\'f3n deben ser ulteriores al acaecimiento de hechos no concordantes con los par\'e1
+metros preestablecidos o se encuentren desviados de los objetivos de la organizaci\'f3n; que en caso de llevarse a cabo implicar\'edan un costo en t\'e9rminos log\'edsticos o de valor dinerario para la entidad.
+\par Forma: Los informes deben ser presentados por escrito para comunicar los resultados de auditor\'eda, y ser revisados en borrador por los funcionarios responsables de la direcci\'f3n de la empresa.
+\par Cumplimiento de las Normas de Profesi\'f3n: Determina que las labores desarrolladas deben realizarse con respecto de las normas y postulados aplicables en cada caso a la pr\'e1
+ctica contable, en especial, aquellas relacionadas con loas normas de otras auditor\'edas especiales aplicables en cada caso.
+\par 
+\par }{\b\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 {\*\bkmkstart no}4. Normativa.{\*\bkmkend no}
+\par }{\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Procedimientos.
+\par Para que el ejercicio de la Auditor\'eda Integral se desarrolle en un ambiente controlado, es importante conducirla dentro de un concepto  de normas que provean una estructura, como la posibilidad de pronosticar los resultados.
+\par }\pard\plain \s15\ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 {\f1\fs20\insrsid4922202 La aplicaci\'f3n de normas ayudar\'e1 a desarrollar una auditor\'ed
+a de alta calidad respondiendo a la necesidad de completar tareas dif\'edciles en forma oportuna, evitando formar juicios prematuros basados en informaci\'f3n incompleta por la falta de tiempo, asimismo, establecen orden y disciplina, produciendo auditor
+\'edas efectivas, garantizando la veracidad de los hallazgos y el soporte adecuado para las recomendaciones, consecuentemente habr\'e1 una mayor aceptaci\'f3n por parte de la gerencia.
+\par Otro beneficio importante de las normas es que se logra una mayor uniformidad en la terminolog\'eda utilizada para describir auditor\'edas m\'e1s amplias que las financieras. Tales auditor\'edas se han descrito como auditor\'ed
+as de operaciones. Administrativas, de desempe\'f1o, y con otra variedad de nombres. La terminolog\'eda ha sido confusa debido a que no existen definiciones generalmente aceptadas.
+\par Debido a la reciente aplicaci\'f3n de la auditor\'eda integral en el sector privado de pa\'edses desarrollados como, Estados Unidos, Inglaterra, Gales y Canad\'e1, no existen a\'fa
+n normas autorizadas que la regulen. Sin embargo, como su origen se encuentran en la Auditor\'eda Gubernamental, se pueden considerar aplicables, al menos en parte, las normas emitidas por la GAO, para la Auditor\'eda de organizaciones del g
+obierno, programas, actividades y funciones.
+\par El Instituto Norteamericano de Contadores P\'fablicos (AICPA), nombr\'f3 un comit\'e9 formado por siete miembros el cual realiz\'f3 un amplio estudio del papel y de las responsabilidades del auditor independiente que hab\'eda un vac\'edo entre el desempe
+\'f1o de los Auditores Independientes y las necesidades y expectativas de los usuarios de Estados Financieros Auditados.
+\par Por tal circunstancia, el AICPA le ha dado seguimiento a las normas GAO, revis\'e1ndolas y emitiendo informes con los comentarios correspondientes a fin de darle el apoyo necesario para que puedan ser desarrolladas en el sector privado.
+\par En 1973, emiti\'f3 su primer informe declarando que estaba de acuerdo con la filosof\'eda y objetivos presentados por la GAO, consider\'e1ndola como parte de la evoluci\'f3n y crecimiento de la disciplina de Auditor\'eda.
+\par Entre algunos de los informes emitidos por el AICPA, que forman parte de los lineamientos adicionales para la ejecuci\'f3n de la Auditor\'eda Integral, est\'e1n:
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \loch\af1\dbch\af0\hich\f1 \'96\tab}}\pard\plain \ql \fi-357\li357\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls4\pnrnot0\pnstart3\pnindent360\pnsp120\pnhang 
+{\pntxtb \'96}}\faauto\ls4\adjustright\rin0\lin357\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Lineamientos para la participaci\'f3n de contadores p\'fa
+blicos en tareas de Auditor\'eda Gubernamental a fin de evaluar la econom\'eda, eficiencia y resultados de programas.
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \loch\af1\dbch\af0\hich\f1 \'96\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls4\pnrnot0\pnstart3\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls4\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Tareas de Auditor\'eda Operacional.
+\par }\pard\plain \s15\ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 {\f1\fs20\insrsid4922202 Este \'faltimo fue preparado con la idea de definir actividades de Auditor\'ed
+a Integral, efectuado por contadores p\'fablicos para proveer informaci\'f3n sobre las mismas y se\'f1alar diferencias con otros tipos de Auditor\'eda.
+\par Los lineamientos emitidos por el AICPA y las normas de la GAO, gu\'edan la Auditor\'eda Integral, pero no contienen todo ni son definitivas, por lo que se siguen desarrollando pr\'e1
+cticas y procedimientos en las unidades de auditoria interna, para asegurar la consistencia y calidad de la labor que llevan a cabo.
+\par Las normas de la GAO se dividen en dos \'e1reas principales:
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \hich\af1\dbch\af0\loch\f1 1)\tab}}\pard\plain \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec\pnstart1\pnindent360\pnsp120\pnhang 
+{\pntxta )}}\faauto\ls5\adjustright\rin0\lin360\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Auditor\'eda Financiera
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \hich\af1\dbch\af0\loch\f1 2)\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec\pnstart1\pnindent360\pnsp120\pnhang {\pntxta )}}
+\faauto\ls5\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Auditor\'eda Operativa.
+\par }\pard\plain \s15\ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 {\f1\fs20\insrsid4922202 
+\par Las dos deber\'e1n observar la aplicaci\'f3n de las normas generales relacionadas a la capacidad profesional del personal, la independencia de la organizaci\'f3n de auditor\'eda y de su personal, el debido cuidado profesional con que debe
+ practicarse la auditor\'eda y prepararse los informes respectivos, y la aplicaci\'f3n de controles de calidad.
+\par Otro tipo de normas son las espec\'edficas a cada tipo de auditor\'eda, que incluyen normas para el trabajo de campo y para la presentaci\'f3n del informe.
+\par Las normas para ejecuci\'f3n del trabajo establecen que este debe ser adecuadamente planeado para obtener evidencia relevante, competente y suficiente a fin de alcanzar los objetivos de la auditor\'eda, incluyendo no s\'f3
+lo la naturaleza de los procedimientos del auditor, si no tambi\'e9n su extensi\'f3n.
+\par Las normas para la presentaci\'f3n del informe hacen \'e9nfasis, que este debe ser preparado por escrito para comunicar los resultados de cada auditor\'eda, reduciendo as\'ed el riesgo de que sean mal interpretados y facilitando el
+ seguimiento para determinar si se han adoptado las medidas correctivas apropiadas.
+\par A continuaci\'f3n se presenta un resumen de las principales normas generales y espec\'edficas gubernamentales que la Auditor\'eda integral aplica en su desarrollo, incluyendo las modificaciones de la revisi\'f3n de 1994.
+\par }\pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Normas Generales.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Capacidad Profesional: El personal designado deber\'e1
+ poseer la capacidad profesional necesaria para realizar las tareas que se requieren. Busca garantizar que los auditores mantengan su capacidad profesional y cumplan con los siguientes requisitos: Conocimiento de m\'e9todos y t\'e9
+cnicas, de los organismos, programas y funciones, habilidad para comunicarse con claridad y eficacia y la pericia necesaria para desarrollar el trabajo encomendado.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Independencia: La organizaci\'f3n de auditor\'eda y cada uno de los auditores deben estar libres de impedimentos que comprometan su independencia y adem\'e1
+s, mantener una actitud y apariencia de \'e9sta.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Debido Cuidado Profesional: Debe tenerse el debido cuidado profesional al ejecutar la auditor\'eda y preparar los informes correspondientes.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Control de Calidad: Establece que las organizaciones de auditor\'ed
+a deben tener una propiedad o sistema interno de control de calidad y participar en un programa de revisi\'f3n externa del mismo, para asegurar de que se cumple con las normas de auditor\'eda y que se han establecido pol\'ed
+ticas y procedimientos de auditor\'eda adecuados.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Normas para el Trabajo:
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Planeamiento: Se debe definir los objetivos de la auditor\'eda, el alcance y metodolog\'eda dirigida a conseguir esos logros.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Supervisi\'f3n: El personal debe ser adecuadamente supervisado para determinar si se est\'e1n alcanzando los objetivos de auditor\'ed
+a y obtener evidencia suficiente, competente y relevante, permitiendo una base razonable para las opiniones del auditor.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Disposiciones Legales y Regulaciones: El auditor debe estar alerta a situaciones de posibles fraudes, abusos o actos ilegales, por lo que debe dise\'f1
+ar la auditor\'eda de tal manera que proporcione una seguridad razonable sobre el cumplimiento de disposiciones legales.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Normas para la Presentaci\'f3n de Informes:
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Forma: Los informes deben ser preparados por escrito para comunicar los resultados de auditor\'ed
+a, y ser revisados en borrador por los funcionarios responsables de la direcci\'f3n de la empresa.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Oportunidad: Los informes deben ser preparados los m\'e1s pronto posible a fin de ser utilizados oportunamente.
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Presentaci\'f3n del Informe: Los datos en forma exacta y razonable describir\'e1n los hallazgos de manera convincente, clara, sencilla, concisa y completa.
+
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'b7}}
+\faauto\ls3\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Contenido del Informe: Se deben incluir los objetivos de la auditor\'eda, alcance y metodolog\'eda para comprender su prop\'f3sito.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par Informes.
+\par Con base en el resultado de su examen evidencia y, de acuerdo con las funciones realizadas, Auditor\'eda Integral otorga los siguientes informes o documentos expresados a trav\'e9
+s de medios comunicables, en los cuales se explica en formas detallada la labor desempe\'f1ada, as\'ed como los resultados obtenidos. Dichos informes contienen el dictamen correspondiente.
+\par }\pard\plain \s15\ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 {\f1\fs20\insrsid4922202 Se entiende por dictamen, el concepto u opini\'f3
+n emitido por el auditor con base en un juicio profesional id\'f3neo.
+\par Los informes de Auditor\'eda Integral en su configuraci\'f3n permiten juzgar la calidad y cantidad de la evidencia. Es por ello, que en la Auditor\'eda Integral }{\f1\fs20\expnd0\expndtw-4\insrsid4922202 no se deben entregar informes de tipo est\'e1
+ndar o uniforme, ya que este modelo}{\f1\fs20\insrsid4922202  puede distorsionar o disminuir el grado de informaci\'f3n que se consigna.
+\par En la Auditor\'eda Integral se deben preparar por lo menos los siguientes informes o documentos suscritos contentivos de la opini\'f3n profesional:
+\par Un informe anual con el dictamen respectivo, el cual, incluye la opini\'f3n sobre la totalidad del ente econ\'f3mico, partiendo de los estados financieros de cierre de ejercicio preparados por la administraci\'f3n, con una explicaci\'f3
+n detallada de la labor desempe\'f1ada. Dicho informe por lo tanto contendr\'e1 al menos las siguientes manifestaciones por parte del auditor:
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \hich\af1\dbch\af0\loch\f1 a)\tab}}\pard\plain \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pnlcltr\pnstart1\pnindent360\pnsp120\pnhang 
+{\pntxta )}}\faauto\ls6\adjustright\rin0\lin360\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Sobre los Estados Financieros:
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls10\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls10\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si el examen se realiz\'f3 con sujeci\'f3n a las normas generales de Auditor\'eda Integral y a las normas que rigen la profesi\'f3n contable.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls10\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls10\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si el examen realizado tuvo o no, limitaciones en el alcance o en la pr\'e1ctica de las pruebas.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls10\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls10\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si los estados financieros presentan de manera fidedigna la situaci\'f3n financiera de la entidad y los resultados de las operaciones durante 
+el respectivo per\'edodo y su integridad.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls10\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls10\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si el sistema de informaci\'f3
+n contable se lleva de acuerdo con los principios de contabilidad generalmente aceptados y las normas legales sobre la materia.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls10\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls10\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si la sociedad cumple oportunamente sus obligaciones con terceros, en especial aquellas de contenido patrimonial.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls10\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls10\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si los an\'e1lisis financieros que realiza la administraci\'f3n son confiables y la aplicaci\'f3
+n y uso de los estados financieros en la toma de decisiones.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls10\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls10\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si los resultados financieros corresponden a procesos decisionales id\'f3neos.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls10\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls10\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si no se ha manipulado el sistema de informaci\'f3
+n contable y si el mismo ha sido inspeccionado de manera integral; las reservas o salvedades sobre la fidelidad de los estados financieros si las hubiere, las que deben ser expresadas en forma clara, completa y detallada.}{
+\b\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \hich\af1\dbch\af0\loch\f1 b)\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pnlcltr\pnstart1\pnindent360\pnsp120\pnhang {\pntxta )}}
+\faauto\ls6\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Sobre el Desempe\'f1o y la Gesti\'f3n de los Administradores.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls11\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls11\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si los administradores han cumplido integralmente con las obligaciones que les competen, en especial con aquellas de contenido patrimonial y, con
+ las recomendaciones de la Auditor\'eda Integral
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls11\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls11\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si la gesti\'f3n administrativa ha sido eficiente, eficaz y econ\'f3mica en los t\'e9rminos del ramo o industria al cual pertenece el ente econ\'f3
+mico y, su correspondiente evaluaci\'f3n.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls11\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls11\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si el control interno ha sido implantado, operado y desarrollado por la administraci\'f3n en forma eficiente, as\'ed
+ mismo un concepto sobre si el mismo es adecuado y un estudio sobre la efectividad.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls11\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls11\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si las operaciones sociales aprobadas por los administradores y sus actuaciones, se han desarrollado con respeto de las normas legales y estatutarias, as
+\'ed como de las \'f3rdenes e instrucciones impartidas por los \'f3rganos sociales, sus cuerpos delegatarios de funciones y las estructuras de regulaci\'f3n aplicables al ente econ\'f3mico.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls11\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls11\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si los informe
+s de los administradores se ajustan al desarrollo de las operaciones sociales concuerdan con los estados financieros y, reflejan el resultado de la gesti\'f3n.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls11\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls11\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si tuvo limitaciones o restricciones por parte de la administraci\'f3n para la obtenci\'f3n de sus informaciones o para el desempe\'f1o de sus funciones.
+
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls11\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls11\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si el proyecto de distribuci\'f3n de las utilidades repartibles presentado por los administradores es confiable e \'ed
+ntegro y, si tales utilidades son el resultado de una gesti\'f3n eficiente.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls11\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls11\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si la situaci\'f3n patrimonial del ente permite la continuidad de la compa\'f1\'eda como empresa en marcha.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls11\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls11\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si los procesos decisionales corresponden al tipo de ente econ\'f3mico y si estos son adecuados conforme las afirmaciones expl\'edcitas e impl\'ed
+citas contenidas en los estados financieros, las observaciones, reservas o salvedades si las hubiere, las que deben ser expresadas en forma clara, completa y detallada.
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \hich\af1\dbch\af0\loch\f1 c)\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pnlcltr\pnstart1\pnindent360\pnsp120\pnhang {\pntxta )}}
+\faauto\ls6\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Sobre el control organizacional.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls12\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls12\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si el control interno existe y si este es adecuado en los t\'e9rminos y caracter\'edsticas de la organizaci\'f3n del ente econ\'f3mico objeto de Auditor
+\'eda Integral. As\'ed mismo, un an\'e1lisis sobre su efectividad y sobre sus fortalezas y deficiencias.
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \hich\af1\dbch\af0\loch\f1 d)\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pnlcltr\pnstart1\pnindent360\pnsp120\pnhang {\pntxta )}}
+\faauto\ls6\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Sobre los procesos operacionales.
+\par {\pntext\pard\plain\fs20\lang2058\langfe11274\langnp2058 \loch\af0\dbch\af0\hich\f0 \'96\tab}}\pard \ql \fi-397\li397\ri0\sl240\slmult0\widctlpar\jclisttab\tx397{\*\pn \pnlvlblt\ilvl0\ls13\pnrnot0\pnstart2\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls13\adjustright\rin0\lin397\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Si cada operaci\'f3n, actividad y proceso que se realiza al interior del ente econ\'f3
+mico, tiene establecido un procedimiento secuencial acorde con los objetivos trazados.
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \hich\af1\dbch\af0\loch\f1 e)\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pnlcltr\pnstart1\pnindent360\pnsp120\pnhang {\pntxta )}}
+\faauto\ls6\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Sobre el cumplimiento de la regulaci\'f3n y legislaci\'f3n por parte del ente, con \'e9
+nfasis en los aspectos relacionados con el Estado, con la comunidad y con los trabajadores.
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \hich\af1\dbch\af0\loch\f1 f)\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pnlcltr\pnstart1\pnindent360\pnsp120\pnhang {\pntxta )}}
+\faauto\ls6\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Sobre el entorno que rodea al ente econ\'f3mico, sus amenazas y riesgos. En especial si el ente econ\'f3
+mico se encuentra estructurado para afrontar la competencia, aprovechar las oportunidades de negocios, neutralizar los riesgos y adaptarse a las condiciones cambiantes del mercado.
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \hich\af1\dbch\af0\loch\f1 g)\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pnlcltr\pnstart1\pnindent360\pnsp120\pnhang {\pntxta )}}
+\faauto\ls6\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Sobre los dem\'e1s hallazgos obtenidos que deban revelarse, as\'ed como la forma en que se llevaron a cabo las funciones desarrolladas por la Auditor\'ed
+a Integral.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Igualmente la Auditor\'eda Integral producir\'e1
+ informes parciales o intermedios, los cuales deben tratar los temas de mayor importancia a juicio del auditor, as\'ed como su opini\'f3n en relaci\'f3n con los estados financieros de cortes intermedios.
+\par }\pard\plain \s15\ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 {\f1\fs20\insrsid4922202 
+Informes eventuales oportunos, sobre los errores, irregularidades o actos desviados o improcedentes que no obstante haber sido puestos en conocimiento de los administradores no hubiesen sido corregidos en un tiempo prudencial. As\'ed
+ mismo, informes sobre la inobservancia de sus recomendaciones por parte de la administraci\'f3n.
+\par }\pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par Diferencias entre auditor\'eda integral y auditor\'eda de estados financieros.
+\par 
+\par }\trowd \irow0\irowband0\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt
+\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\pard \ql \li0\ri0\sl240\slmult0
+\widctlpar\intbl\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Elementos\cell Auditor\'eda de Estados Financieros\cell Auditor\'eda Integral\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \trowd \irow0\irowband0\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 
+\trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 {
+\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par Prop\'f3sito\cell 
+\par Emitir opini\'f3n sobre la razonabilidad de las cifras de los Estados financieros tomados en conjunto.
+\par 
+\par \cell 
+\par Evaluar y comprobar el logro de operaciones econ\'f3micas, eficientes y efectivas en una empresa, examinando sus controles internos de apoyo y las bases de datos. Adem\'e1s probar el sistema de medici\'f3n de la Gerencia.
+\par \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \trowd \irow1\irowband1\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb
+\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 {
+\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Finalidad\cell Dar seguridad a los usuarios externos sobre la objetividad de la informaci\'f3n financiera.\cell Ayudar a la m\'e1s alta autoridad de una empresa o a la direcci\'f3
+n de un ente a mejorar las operaciones y actividades en termino de eficiencia en el uso de los recursos y el logro de objetivos operativos mediante la proposici\'f3n de alternativas de soluci\'f3n.
+\par \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \trowd \irow2\irowband2\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb
+\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\row }\trowd \irow3\irowband3\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 
+\trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrnone \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrnone \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrnone \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Alcance
+\cell Actividades financieras y econ\'f3micas, as\'ed como la funci\'f3n de control en el \'e1rea financiera.\cell La organizaci\'f3n total de la empresa, o solo algunas de sus reparticiones y operaciones enfocando su evaluaci\'f3
+n al sistema de control gerencial, comprende al ente econ\'f3mico incluido en el entorno que lo rodea.
+\par \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \trowd \irow3\irowband3\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb
+\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrnone \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrnone \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrnone \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\row }\trowd \irow4\irowband4\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr
+\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil 
+\cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \cell \cell \cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \trowd \irow4\irowband4\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 
+\trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\row }\trowd \irow5\irowband5\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr
+\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 {
+\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Elementos\cell Auditor\'eda de Estados Financieros\cell Auditor\'eda Integral\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {
+\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \trowd \irow5\irowband5\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Enfoque\cell Persigue la correcta determinaci\'f3
+n del Balance General y Estado de Resultados.\cell Persigue la obtenci\'f3n de eficiencia, econom\'eda y eficacia de los recursos materiales y humanos que posee la entidad.
+\par \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \trowd \irow6\irowband6\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb
+\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 {
+\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Aporte en soluci\'f3n de problemas\cell No es responsable de proponer soluciones\cell Si es responsable de buscar alternativas de soluci\'f3n a los problemas.
+\par \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \trowd \irow7\irowband7\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb
+\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 {
+\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Procedimientos\cell }\pard\plain \s15\ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 \fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 {\f1\fs20\insrsid4922202 
+Planeaci\'f3n anticipada de las pruebas a realizar de acuerdo a la actividad econ\'f3mica de la empresa que permita obtener una opini\'f3n sobre la razonabilidad de los Estados Financieros.
+\par }\pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \cell Planeaci\'f3n estrat\'e9
+gica del trabajo que permita una labor integral, oportuna y permanente de las operaciones del ente auditado.\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\trowd \irow8\irowband8\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt
+\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\row }\pard \ql \li0\ri0\sl240\slmult0
+\widctlpar\intbl\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Labor de seguimiento a problemas\cell No existe responsabilidad.\cell Es responsable de dar seguimiento a cada problema surgido.
+\par \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \trowd \irow9\irowband9\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb
+\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 {
+\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Informe a emitir\cell Dictamen sobre la razonabilidad de los Estados financieros de acuerdo a Normas y procedimientos de Auditor\'eda Generalmente Aceptados.
+\par \cell Informe con opini\'f3n de los resultados del \'e1rea, actividad u operaci\'f3n auditada tendiente a formular recomendaciones para lograr los objetivos propuestos.\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 
+{\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \trowd \irow10\irowband10\ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Objeto de examen\cell 
+Estados Financieros, registros contables y documentos anexos.\cell }\pard\plain \s15\ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\adjustright\rin0\lin0 \fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 {\f1\fs20\insrsid4922202 
+Actividades, operaciones, pro-gramas o toda la organizaci\'f3n en s\'ed, adem\'e1s de elementos indicadores y normas de rendimiento medibles.\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 
+\fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 \trowd \irow11\irowband11\lastrow \ts11\trqc\trgaph70\trleft-70\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr
+\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl70\trpaddr70\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth1913\clshdrawnil \cellx1843\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3119\clshdrawnil \cellx4962\clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3662\clshdrawnil \cellx8624\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par }{\b\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 {\*\bkmkstart co\'e7}5. Conclusiones{\*\bkmkend co\'e7}
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \loch\af1\dbch\af0\hich\f1 \'96\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls4\pnrnot0\pnstart3\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls4\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 La informaci\'f3n proporcionada a trav\'e9s de este documento, dar\'e1
+n las bases al auditor para conocer los principios y procedimientos aplicados a una organizaci\'f3n.
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \loch\af1\dbch\af0\hich\f1 \'96\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls4\pnrnot0\pnstart3\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls4\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 La ejecuci\'f3n de la Auditor\'eda Integral en una empresa puede ser realizada por un auditor, con la asesor\'ed
+a de profesionales en otras disciplinas si fuere necesario, como ingenieros, abogados, etc.
+\par {\pntext\pard\plain\f1\fs20\lang2058\langfe11274\langnp2058 \loch\af1\dbch\af0\hich\f1 \'96\tab}}\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls4\pnrnot0\pnstart3\pnindent360\pnsp120\pnhang {\pntxtb \'96}}
+\faauto\ls4\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 La Auditor\'eda Integral, para su desarrollo, exige del auditor interno un cambio de actitud, caracterizado por la adquisici\'f3
+n de nuevas capacidades y habilidades, as\'ed como un amplio conocimiento de las operaciones de la empresa y de las variables internas y externas que la afectan.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par }\pard\plain \s1\ql \li0\ri0\sl240\slmult0\keepn\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs28\lang2058\langfe11274\cgrid\langnp2058\langfenp11274 {\f1\fs20\insrsid4922202 {\*\bkmkstart bi}6. Bibliograf\'eda{\*\bkmkend bi}
+\par {\pntext\pard\plain\f3\fs20\lang2058\langfe11274\langnp2058 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart2\pnindent360\pnsp120\pnhang 
+{\pntxtb \'b7}}\faauto\ls3\adjustright\rin0\lin360\itap0 \fs28\lang3082\langfe11274\cgrid\langnp3082\langfenp11274 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 La Auditor\'ed
+a Integral como alternativa para agregar valor a los servicios que presta el Contador P\'fablico.
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\adjustright\rin0\lin360\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 Jos\'e9 Emilio Rodr\'edguez Serpas.
+\par 
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 {\f1\fs20\lang2058\langfe11274\langnp2058\insrsid4922202 
+\par }}

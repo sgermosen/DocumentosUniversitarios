@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LabSintaxis3">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase II\Labs Solucion\LabSintaxis3\LabSintaxis3.sln">
+</Property><Property Name="Date" Value="Monday, February 22, 2010">
+</Property><Property Name="Time" Value="10:36 AM">
+</Property></Properties><Event ErrorLevel="0" Project="LabSintaxis3" Source="LabSintaxis3\LabSintaxis3.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LabSintaxis3" Source="LabSintaxis3\LabSintaxis3.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LabSintaxis3.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="LabSintaxis3.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LabSintaxis3" Source="LabSintaxis3\LabSintaxis3.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

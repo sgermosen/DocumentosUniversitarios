@@ -1,0 +1,50 @@
+Office Para PyMEs
+
+Autores: C.P. Alejandro Adolfo Pazos
+	 C.P. Matias Garcia Fronti
+
+Consultores Tecnologicos: 
+	 Ingeniero Javier Garcia Fronti
+	 Alicia Mariana Reston
+
+
+Indice
+
+Prologo
+Objetivo Y Alcance
+Temario
+Instalacion de los Archivos
+Explicacion Gral. sobre el manejo de los archivos
+Actualizaciones y Comentarios
+Archivos con Aplicaciones
+
+1.- Microsoft EXCEL
+
+Introduccion
+
+1.1. Caja Chica
+1.2. Asignacipon de Costo por Operación
+1.3. Control Ingresos y Gastos
+1.4. Plazos Fijos
+1.5. Cotizacion de Costo Escalonado
+1.6. Venta de Valores
+
+2.- Microsoft Word
+
+2.1. Circularizacion de Proveedores
+2.2. Emision de Presupuesto
+2.3. Informe Comercial
+2.4. Informe de Ventas
+2.5. Carta Estandar
+ANEXO: Combinar Correspondencia
+
+3 Microsoft POWERPOINT
+
+3.1. Como utilizar una template de Powerpoint
+
+Anexo
+Como contactárse con los autores
+Office para PyMEs en Internet
+Autores
+Otras Publicaciones
+Soluciones Informáticas

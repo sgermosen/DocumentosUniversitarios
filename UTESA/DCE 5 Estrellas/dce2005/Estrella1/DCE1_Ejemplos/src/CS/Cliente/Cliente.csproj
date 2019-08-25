@@ -1,0 +1,70 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{328363F1-BCC8-4D8B-B3DE-22DA472427EE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DCE05.Ejemplos.EstrellaUno.Cliente</RootNamespace>
+    <AssemblyName>DCE05.Ejemplos.EstrellaUno.Cliente</AssemblyName>
+    <StartupObject>DCE05.Ejemplos.EstrellaUno.Cliente.PuntoDeVenta</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>DCE05.Ejemplos.ADONET.Cliente</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>DCE05.Ejemplos.ADONET.Cliente</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OpcionAgregarItemVenta.cs" />
+    <Compile Include="OpcionCancelarVenta.cs" />
+    <Compile Include="ListaOpciones.cs" />
+    <Compile Include="OpcionConfirmarVenta.cs" />
+    <Compile Include="OpcionIniciarVenta.cs" />
+    <Compile Include="OpcionInvalidaException.cs" />
+    <Compile Include="OpcionListarProductos.cs" />
+    <Compile Include="Opcion.cs" />
+    <Compile Include="OpcionListarCarrito.cs" />
+    <Compile Include="OpcionSalir.cs" />
+    <Compile Include="PuntoDeVenta.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReglasNegocio\ReglasNegocio.csproj">
+      <Project>{5B3DFE7C-1AFC-4491-BF64-4A851BFF38AF}</Project>
+      <Name>ReglasNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,7 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\LabClases1.exe
+bin\Debug\LabClases1.pdb
+bin\Debug\\Clases.dll
+bin\Debug\\Clases.pdb
+obj\Debug\LabClases1.exe
+obj\Debug\LabClases1.pdb

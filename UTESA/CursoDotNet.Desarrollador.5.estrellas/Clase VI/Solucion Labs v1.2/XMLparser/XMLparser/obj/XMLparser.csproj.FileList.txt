@@ -1,0 +1,5 @@
+bin\Debug\XMLparser.exe
+bin\Debug\XMLparser.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\XMLparser.exe
+obj\Debug\XMLparser.pdb

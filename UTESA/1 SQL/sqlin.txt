@@ -1,0 +1,141 @@
+Hace un año (2000) descubrimos un grave problema de seguridad que potencialmente podía afectar a muchos sitios web segurizados, con validación a través de usuario y clave. Nos tomamos un tiempo para definir el problema y chequear a cuántos sitios web afecta. Los resultados son sorprendentes.
+
+¿Qué sitios pueden tener este problema de seguridad?
+
+El problema afecta a sitios web que utilizan Bases de Datos para contener el listado de pares usuario/clave, páginas ASP para accederlas, y cuyas rutinas de validación de usuario utilizan consultas SQL escritas de una determinada manera.
+
+El algoritmo de validación de usuarios
+
+Muchos desarrolladores web validan el acceso de usuarios a través del siguiente método, implementado además por el sistema de autentificación de usuarios (Server Behavior) de Macromedia Dreamweaver Ultradev 4 (última versión a la fecha):
+
+Se pide al usuario que ingrese el par usuario/clave en campos TEXT y PASSWORD, respectivamente, de un formulario en una página HTML convencional. 
+Al hacer click sobre el botón SUBMIT del formulario, estos datos son pasados ocultamente a una página ASP en el encabezado HTTP, ya que la etiqueta FORM generalmente tiene (y debería tenerlo siempre en estos casos) el atributo METHOD="POST". 
+La página ASP toma los datos de usuario y clave. 
+Se realiza una consulta SQL contra la base de datos para traer el registro que corresponde al usuario y clave ingresados. 
+Si la consulta devuelve un registro, entonces los datos son correctos, el usuario es reconocido por el sistema, y se crea una variable de sesión que lo habilita de aquí en adelante a ingresar a las partes segurizadas del sitio a las cuales tiene acceso. Si la cantidad de registros devueltos es nula es porque no se ha encontrado ningún par usuario/clave coincidente en la tabla de usuarios. Si es así, se envía a la persona a otra página donde se le indica que hay un error en los datos ingresados. 
+
+El código de validación en ASP
+
+La página ASP que recibe los datos de usuario y clave, los recupera con las siguientes instrucciones:
+
+str_usuario = Request.Form("usuario")
+str_clave = Request.Form("clave")
+
+y utiliza una consulta SQL contra la base de datos para devolver el registro correspondiente al usuario. La cadena SQL es como sigue (en una sola línea):
+
+cad_sql = "SELECT * FROM tabla_usuarios WHERE col_usuario = '" & str_usuario & "' AND col_clave = '" & str_clave & "'"
+
+Como vemos, se van concatenando las instrucciones SQL con la información proveniente del formulario donde el visitante al sitio web ingresó sus datos.
+
+Luego se ejecuta la consulta y se verifica si devuelve un registro o no. En función de ello se habilita o no al usuario.
+
+
+¿Dónde aparece el problema?
+
+Qué pasa si en el campo USUARIO del formulario web de validación se introduce el siguiente texto:
+
+' OR col_usuario LIKE '%%
+
+y en el campo CLAVE lo siguiente (aunque se vea como asteriscos),
+
+' OR col_clave LIKE '%%
+
+Cuando se concatenan los datos en la consulta SQL, la cadena definitiva quedará como sigue (en una sóla línea; se muestra así para mayor claridad):
+
+SELECT * FROM tabla_usuarios
+WHERE col_usuario = ''
+OR col_usuario LIKE '%%'
+AND col_clave = ''
+OR col_clave LIKE '%%'
+
+
+LA CUAL, SI LA ANALIZAMOS LOGICAMENTE, SIEMPRE DEVOLVERA TODOS LOS REGISTROS DE LA TABLA DE USUARIOS. POR LO TANTO, EL NUMERO DE REGISTROS DEVUELTOS SERA DISTINTO DE CERO Y EL SISTEMA NOS ACEPTARA COMO USUARIOS.
+
+Así, se consigue ser validado por el sistema sin siquiera saber como cuál usuario se ha ingresado.
+
+Notar que este problema no es tal en otros lenguajes que no permiten la expansión de variables. En PHP, por ejemplo, una comilla simple pasada a través de un método GET o POST es tomada como '\. Es decir, la comilla seguida de una barra invertida. Esto no se puede cambiar, salvo que el administrador del servidor modifique la configuración por defecto de esta propiedad en uno de los archivos ini del intérprete PHP.
+
+Ahora, muchos se estarán preguntando cómo sé los nombres de los campos (columnas) de la tabla. Generalmente, los programadores/desarrolladores colocan en el formulario de ingreso de usuario/clave los mismos nombres de las columnas de la tabla en las etiquetas INPUT.
+
+Usuario: <input type="text" name="usuario">
+Clave: <input type="password" name="clave">
+
+Así, con sólo observar el código de la página HTML de ingreso de datos, posiblemente se obtenga la información necesaria.
+
+Sino, se puede inducir un error en la consulta SQL, por ejemplo de la siguiente manera,
+
+usuario --> ' OR col_usuario LIKE '%%'
+clave --> cualquier texto
+
+Simplemente se ha agregado una comilla al final del nombre de usuario comentado anteriormente. Cuando se concatenen las cadenas de texto, quedará una comilla sin cerrar, lo cual, cuando se ejecute la consulta contra la base de datos, producirá un error en la API de acceso a datos (OLE DB) que saldrá en la pantalla, probablemente junto a la cadena completa de la consulta. De allí simplemente se leen los nombres de los campos que el desarrollador ha asignado.
+
+Pero la cosa es más sencilla aún. No se necesitan conocer los nombres de los campos usuario y clave de la tabla. CON SOLO CONOCER EL NOMBRE DE UN CAMPO CUALQUIERA DE LA TABLA, IGUAL SE PODRA ACCEDER COMO USUARIO VALIDADO.
+
+Veamos, supongamos que la tabla de usuarios contiene otro campo, además de usuario y clave, llamado NOMBRE. Entonces, si en el formulario HTML de validación se ingresa lo siguiente en los campos usuario y clave
+
+usuario --> ' OR NOMBRE LIKE '%%
+clave --> ' OR NOMBRE LIKE '%%
+
+la cadena de consulta concatenada quedará
+
+SELECT * FROM tabla_usuarios
+WHERE col_usuario = ''
+OR NOMBRE LIKE '%%'
+AND col_clave = ''
+OR NOMBRE LIKE '%%'
+
+La cual, si la analizamos, nos devolverá nuevamente todos los registros de la tabla y la validación es positiva.
+
+
+Ingresando como un usuario específico
+
+Con los códigos utilizados anteriormente no se sabe de antemano como cuál usuario se va a ingresar. Ésto dependerá del primer registro obtenido en el Recordset que trae la consulta.
+
+Para ser más específico, se puede modificar la cadena SQL. Por ejemplo, para ingresar como una persona cuyo usuario contenga la cadena ana, se debe colocar:
+
+usuario --> ' OR NOMBRE LIKE '%ana%
+clave --> ' OR NOMBRE LIKE '%ana%
+
+NO OLVIDEMOS QUE ESTOS DATOS SE INGRESAN EN LOS CAMPOS USUARIO Y CLAVE DE LA PAGINA DE LOGIN, A LA QUE TODO EL MUNDO TIENE ACCESO.
+
+Es más, si se conoce el nombre de un usuario determinado, se puede ingresar al sistema validados como tal. Por ejemplo, supongamos un usuario llamado JOSE; para ingresar como él, se debe introducir lo siguiente
+
+usuario --> JOSE
+clave --> ' OR col_usuario = 'JOSE
+
+La cadena concatenada quedará de la siguiente manera:
+
+SELECT * FROM tabla_usuarios
+WHERE col_usuario = 'JOSE'
+AND col_clave = ''
+OR col_usuario = 'JOSE'
+
+Esta consulta devolverá sólo el registro correspondiente al usuario JOSE. Por lo tanto, el sistema nos validará como el mismo.
+
+¿Qué pasa si el campo de ingreso de datos está limitado a un número reducido de caracteres?
+
+La solución a este planteo debe resultar trivial para cualquier desarrollador web con mínima experiencia. Aunque algunos webmasters creen que están añadiendo una cuota de seguridad cuando limitan la longitud de caracteres en los campos TEXT y PASSWORD, esto no es así. Simplemente se guarda la página que contiene el formulario en el disco duro local, se abre con un editor web (o de textos) y se quitan los atributos MAXLENGTH="XX" de las etiquetas INPUT. Se guarda la página en el disco local, previa corrección del atributo ACTION del formulario para que apunte a la página ASP del sitio de acceso segurizado. Se ejecuta la página localmente en el explorador/navegador, se cargan los valores antedichos de usuario y clave, y listo.
+
+
+Uno de cada tres sitios ASP de acceso seguro son vulnerables
+
+En las pruebas realizadas en estos meses, tratamos de ingresar a un centenar de sitios segurizados a través de bases de datos mediante el método comentado. Cerca del 40% por ciento de estos sitios pudo ser vulnerado sin ningún esfuerzo.
+
+Por otro lado, como se comentó al principio, Macromedia Dreamweaver Ultradev 4 implementa el algoritmo que hace posible esta vulnerabilidad en la seguridad. Por lo tanto, todos los desarrolladores que utilizaron este popular programa para implementar la seguridad de sus sitios, mediante el "Server Behavior" de autentificación de usuarios, muy probablemente tengan este hueco de seguridad en sus sitios web.
+
+Algunos de los sitios que muestran esta falencia de seguridad poseen la certificación de seguridad estampada en sus páginas. No se si las empresas certificadoras de seguridad tienen algo de culpa. Estrictamente, se está trabajando en un entorno Secure Socket Layer (SSL). Cuando comienza la transacción segura, los códigos SQL ingresados en lugar de usuario/clave son encriptados y viajan "seguros" para que nadie pueda verlos con un sniffer y una llave de protocolos. Luego son desencriptados en el servidor seguro e impactan contra la base de datos, produciendo una transacción "seguramente" insegura.
+
+
+¿Cómo solucionar el problema?
+
+Este artículo no tiene como objetivo enseñar a entrar a sistemas segurizados. Sólo estamos diciendo: - Hay un frecuente problema de seguridad y quizás su sitio lo posea. Si usted es desarrollador, trate de vulnerar con este método las zonas de sus sitios restringidas a usuarios registrados. Si su sitio es susceptible, a continuación le explicamos como solucionar el problema.
+
+Corregir este defecto es sencillo. Sólo hay que modificar la manera en que se recuperan los datos de usuario y clave en la página ASP. Por ejemplo, de la siguiente manera:
+
+str_usuario = Replace(Request.Form("usuario"),"'","''")
+str_clave = Replace(Request.Form("clave","'","''")
+
+Observar que se ha añadido la función Replace() de VBScript. Esta función reemplazará cada comilla simple que pueda llegar a ingresar el usuario por dos comillas simples seguidas. Esto es tomado como el caracter comilla simple por la interfase de datos de Microsoft y no afectará la estructura de la consulta SQL. Así, se evitará que un usuario pueda interceptar la consulta SQL y agregar código propio.
+
+©Argentina-Hosting.Com
+http://www.argentina-hosting.com

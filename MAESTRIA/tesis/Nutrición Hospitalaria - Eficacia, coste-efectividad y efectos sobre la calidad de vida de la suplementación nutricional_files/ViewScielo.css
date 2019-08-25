@@ -1,0 +1,248 @@
+/* sobrescreve ViewNLM.css */
+html {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	margin-left:  8%;
+    margin-right: 8%;
+    }
+
+ 
+.fm  {
+     font-size:   9pt;
+     line-height: 1.5;
+	
+ 	
+     }
+
+.body
+     {
+     font-family : Verdana, Arial, Helvetica, sans-serif;
+     font-size:   10pt;
+     line-height: 1.4;
+     margin-top: 50pt;
+	width: 100%;
+     }
+
+
+.bm {
+ margin-top: 50pt;
+     font-size:   9pt;
+     line-height: 1.5;
+	width: 100%;
+	font-family:Verdana,courier new;
+
+}
+
+.tl-main-part {
+	display: block;
+	font-size: 12pt;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: black;   
+   margin-top: 30pt;
+  }
+ .tl-section-level {
+   display: block;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 14pt;
+   font-weight: bold;
+   color: black;
+
+   }
+ 
+/* titling level 4: lowest designed level */
+.tl-lowest-section {
+   display: block;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 10pt;
+   font-weight: bold;
+   color: black;
+   line-height: 130%;
+   margin-top: 10pt;
+   }
+
+/* default titling level */
+.tl-default {
+   display: block;
+   font-family:  Verdana, Arial, Helvetica, sans-serif;
+   font-size: 10pt;
+   font-style: italic;
+   color: black;
+   line-height: 130%;
+   margin-top: 5pt;
+  }
+
+
+hr.section-rule {
+	display: none;
+    margin-top: 40pt;
+    margin-bottom: 40pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    }
+/* SciELO */
+.scielo-article-title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 10;
+	margin-bottom: 80px;
+}
+.scielo-article-other-titles {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	margin: 20;
+}
+.scielo-article-other-titlesr2l {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 16pt;
+		text-align: right;
+	margin: 20;
+}
+.scielo-authors {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-weight: bold;
+		font-size: 10pt;
+}
+.abstract-title {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.abstractr2l {
+		font-size: 14pt;
+		text-align: right;
+		font-family: sans-serif
+}
+.r2l {
+		font-size: 130%;
+		text-align: right;
+		font-family: sans-serif
+}
+
+.fig {
+	text-align: left;
+	margin-top: 40pt;
+	margin-bottom: 40pt;
+}
+.table {	
+	margin-bottom: 50pt;
+}
+
+
+.fig-file {
+	text-align: left;
+	margin-left: 0pt;
+	margin-right: 20pt;
+}
+.fig-data {
+	margin-left: 10pt;
+	margin-right: 20pt;
+}
+
+.table-label, .fig-label {
+		font-family : Times New Roman;
+		font-size: 11pt;
+		font-weight: bold;
+		text-align: justify;
+}
+
+.table-caption, .fig-caption {
+		font-family : Times New Roman;
+		font-size: 11pt;
+	text-align: justify;
+}
+
+.table-content {
+	margin-top: 0
+}
+.table table {
+empty-cells: show ;
+	border-style: dotted  dotted dotted dotted;
+	 font-family : Verdana, Arial, Helvetica, sans-serif;
+
+	table-layout: automatic;
+}
+
+.table table  thead   {
+    font-size : 9pt;
+	background: #aabbcc;
+}
+
+
+.table table  td {
+    font-size : 8pt;
+	border-bottom: 1px solid black;
+	
+border-spacing: 20pt;
+}
+
+
+/*
+.table table td {
+		
+	border: 1px solid gray;
+}*/
+
+.article-categories {
+	text-align: right;
+}
+.element {
+	color: red;
+}
+.warning {
+	color: red;
+	background-color: yellow;
+}
+.error {
+	background-color: red;
+	color: yellow;
+}
+.limiter {
+	color: blue;
+}
+.xml {
+	background-color: #DDDDDD;
+	margin-bottom: 50pt;
+}
+.destaque{
+	background-color: #FFFFFF;
+	color: #DDDDDD;
+}
+
+.bm div div, .bm div {
+	width: 100%;	
+}
+.subject {
+	text-transform: uppercase;
+}
+.foot {
+ font-family : Verdana, Arial, Helvetica, sans-serif;
+     font-size:   8pt;	
+}
+
+fig-file a  {
+	text-decoration: none;
+}
+
+.history {
+	margin-top: 60pt;
+}
+
+
+.license P, .license  A, .license  SPAN{
+	text-align: center;
+	font-size: 8pt;
+	color: black
+}
+
+.license img {
+	
+}
+
+.license  {
+margin-top: 60pt;
+	
+}

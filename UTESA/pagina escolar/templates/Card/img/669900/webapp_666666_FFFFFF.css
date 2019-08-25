@@ -1,0 +1,18 @@
+
+.forum_list_header_entry    { background-color:#ECECEC; }
+.forum_list_header_author   { background-color:#ECECEC; }
+.forum_list_header_count    { background-color:#ECECEC; }
+.forum_list_header_date     { background-color:#ECECEC; }
+.forum_msg_header2          { background-color:#ECECEC; }
+.forum_header               { letter-spacing:0.1ex;font-weight:bold; }
+.forum_msg_body             { border:2px solid #ECECEC; }
+.forum_jump                 { margin:2px;border:2px solid #ECECEC; }
+.forum_answer               { margin:2px; }
+.forum_summary              { margin:2px; }
+
+.voteBox                    { width:100%; margin-bottom:15px; border:1px solid #ECECEC; }
+.voteHeading                { background-color: #ECECEC; font-weight:bold; }
+.voteContent                { margin:0px; }
+.voteResultPositive         { color:#ff0000; font-weight:bold; }
+.voteResultNegative         { font-weight:bold; }
+	

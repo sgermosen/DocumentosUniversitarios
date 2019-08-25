@@ -1,0 +1,6 @@
+bin\Debug\Ejercicio5.exe
+bin\Debug\Ejercicio5.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Ejercicio5.exe
+obj\Debug\Ejercicio5.pdb
+bin\Debug\Ejercicio5.exe.config

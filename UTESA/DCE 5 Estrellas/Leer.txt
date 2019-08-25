@@ -1,0 +1,97 @@
+Curso Interactivo Desarrollador 5 Estrellas Septiembre 2007 Español
+Impresionante Curso interactivo salido ahce solo unos dias que es lo mas completo para aprender a desarrollar que hemos visto en habla hispana!!!
+Las 60 horas se dividen en 15 clases de 4 horas cada una. Cada clase cuenta con 1 presentación en powerpoint. Cada slide cuenta con notas que detallan el marco teórico del que se habla. Además, cada clase cuenta con un documento de Word donde se detallan los laboratorios que realizarán los alumnos de manera individual. Está disponible la resolución de los ejercicios como material de consulta.
+Al comienzo de la presentación de cada clase, se proponen preguntas sobre la clase anterior, a manera de repaso.
+
+Los contenidos del curso son los siguientes:
+
+• Clase I
+- Introducción al programa +MAS
+- Programación Orientada a Objetos. (1ra Parte)
+- Introducción
+- .NET Framework 2.0. (1ra Parte)
+- Componentes Principales
+
+• Clase II
+- IDE Visual Studio 2005 (1ra Parte)
+- Presentación.
+- Herramientas principales
+- Sintaxis de los lenguajes. (1ra Parte)
+- Tipos
+- Estructuras lógicas
+
+• Clase III
+- .NET Framework 2.0 (2da Parte)
+- Assemblies
+- Creación de proyectos
+- Programación Orientada a Objetos (2da Parte)
+- Conceptos Avanzados
+- Interfases
+- Sintaxis (2da Parte)
+- Manejo de Excepciones
+
+• Clase IV
+Examen “.Net Essencial” rendido
+- Sintaxis (3ra Parte)
+- Lenguajes de .NET y POO
+- IDE Visual Studio 2005 (2da Parte)
+- Integración con POO
+• Clase V
+- IDE Visual Studio 2005 (3ra Parte)
+- Herramientas avanzadas de la aplicación
+
+• Clase VI
+- Base Class Library ( 1ra Parte)
+- Introducción
+- Aplicaciones tipo consola
+- Manejo de strings
+- XML
+- Entrada y salida de archivos
+- Compresión
+- Colecciones de objetos
+
+• Clase VII
+- SQL Server 2005
+
+• Clase VIII
+- ADO.NET ( 1ra Parte)
+
+• Clase IX
+- ADO.NET ( 2da Parte)
+- Base Class Library ( 2da Parte)
+- Hilos de ejecución
+- Semaforos
+- Generics
+- Constraints
+- Iteradotes
+- Métodos anónimos
+- Serialización
+- HttpListener
+
+• Clase X
+Examen “1ra Estrella” rendido
+- .NET Framework 2.0 (3ra Parte)
+- Garbage Collector
+- Click Once
+- WinForms 2.0
+
+• Clase XI
+- ASP.NET 2.0 ( 1ra Parte)
+
+• Clase XII
+- ASP.NET 2.0 ( 2da Parte)
+
+• Clase XIII
+- ADO.NET & ASPNET
+- Web Services
+
+• Clase XIV
+Examen “2da Estrella” se rinde presencialmente
+- VSTS
+- Seguridad en .NET Framework ( 1ra Parte)
+
+• Clase XV
+- Seguridad en .NET Framework ( 2da Parte)
+Recuperatorios Exámenes
+
+Hay dos exámenes de la estrella 0 y dos exámenes de la estrella 1

@@ -1,0 +1,165 @@
+BODY {
+	BACKGROUND-IMAGE: url(imagenes/fondo2.jpg)
+}
+#contenedor {
+	MARGIN: auto; WIDTH: 680px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+#cabecera {
+	BACKGROUND-IMAGE: url(imagenes/cabecera2.png); WIDTH: 680px; HEIGHT: 100px
+}
+DIV.barranav {
+	CLEAR: both; BACKGROUND: #000000; WIDTH: 680px; PADDING-TOP: 2px; HEIGHT: 18px; TEXT-ALIGN: center
+}
+#lateral {
+	MARGIN-TOP: 2px; BACKGROUND: #ffffff; FLOAT: left; WIDTH: 120px
+}
+#cuerpo {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FLOAT: right; WIDTH: 544px
+}
+DIV.barranavpie {
+	CLEAR: both; BACKGROUND: #000000; PADDING-BOTTOM: 2px; WIDTH: 680px; HEIGHT: 20px; TEXT-ALIGN: center
+}
+#pie {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; WIDTH: 100%; PADDING-TOP: 4px; TEXT-ALIGN: center
+}
+#nav_lecciones {
+	MARGIN-LEFT: auto; WIDTH: 400px; MARGIN-RIGHT: auto
+}
+#nav_lecciones TD.naviz {
+	TEXT-ALIGN: right
+}
+#fecha {
+	FONT-WEIGHT: bold; PADDING-TOP: 2px; HEIGHT: 15px; TEXT-ALIGN: right
+}
+#adsense_250x250 {
+	FLOAT: left; WIDTH: 250px; MARGIN-RIGHT: 6px; HEIGHT: 250px; BACKGROUND-COLOR: #f1f1f1
+}
+#adsense_120x240 {
+	PADDING-LEFT: 4px; FLOAT: right; WIDTH: 120px; HEIGHT: 240px; BACKGROUND-COLOR: #ffffff
+}
+DIV.menucab {
+	MARGIN-TOP: 3px; PADDING-LEFT: 8px; FONT-SIZE: 10pt; BACKGROUND-IMAGE: url(imagenes/bot_menucab.png); WIDTH: 112px; COLOR: #ffffff; PADDING-TOP: 5px; HEIGHT: 20px
+}
+DIV.menu {
+	PADDING-LEFT: 8px; FONT-SIZE: 10pt; BACKGROUND-IMAGE: url(imagenes/bot_menu2.png); WIDTH: 112px; COLOR: #ffffff; PADDING-TOP: 4px; HEIGHT: 21px
+}
+DIV.marco {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 10pt; BACKGROUND: #f4f7f9; PADDING-BOTTOM: 3px; BORDER-LEFT: #000000 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #000000 1px solid
+}
+DIV.titulo {
+	PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: #000000; MARGIN-BOTTOM: 3px; COLOR: #ffffff; HEIGHT: 20px
+}
+DIV.text_img {
+	FONT-SIZE: 10pt; FONT-FAMILY: serif; TEXT-ALIGN: center
+}
+DIV.text_img IMG {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+DIV.text_img_a {
+	FONT-SIZE: 10pt; FONT-FAMILY: serif; TEXT-ALIGN: center
+}
+DIV.text_img_a IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+H1 {
+	FONT-SIZE: 18pt
+}
+H2 {
+	MARGIN-TOP: 24px; FONT-SIZE: 13pt; MARGIN-BOTTOM: 16px
+}
+P {
+	FONT-SIZE: 10pt; LINE-HEIGHT: 18px; FONT-FAMILY: arial
+}
+P.centrar {
+	TEXT-ALIGN: center
+}
+UL {
+	FONT-SIZE: 10pt; LINE-HEIGHT: 18px; FONT-FAMILY: arial
+}
+OL {
+	FONT-SIZE: 10pt; LINE-HEIGHT: 18px; FONT-FAMILY: arial
+}
+UL.lecciones {
+	FONT-SIZE: 10pt; LINE-HEIGHT: 24px; FONT-FAMILY: arial
+}
+UL.nav {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+UL.nav LI {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ffffff 0px solid; DISPLAY: inline; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; BORDER-LEFT: #ffffff 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #ffffff 0px solid
+}
+UL.nav A {
+	COLOR: #ffffff
+}
+TABLE {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; MARGIN: auto; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+TH {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: #000000; PADDING-BOTTOM: 4px; COLOR: #ffffff; PADDING-TOP: 2px; TEXT-ALIGN: center
+}
+TD.color1 {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: #ccccff; PADDING-BOTTOM: 4px; PADDING-TOP: 2px
+}
+TD.color2 {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: #ffccff; PADDING-BOTTOM: 4px; PADDING-TOP: 2px
+}
+TABLE.links {
+	FONT-SIZE: 8pt; WIDTH: 100%; FONT-FAMILY: sans-serif; BORDER-COLLAPSE: collapse
+}
+TABLE.links TD {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 12px; BORDER-LEFT: #ffffff 1px solid; WIDTH: 50%; PADDING-TOP: 2px; BORDER-BOTTOM: #ffffff 1px solid; empty-cells: show; text-family: arial
+}
+TABLE.musica TD {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: #ccddff; PADDING-BOTTOM: 4px; PADDING-TOP: 2px
+}
+IMG#favoritos {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+IMG#email {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: -3px
+}
+SPAN.azul {
+	COLOR: #0000ff
+}
+SPAN.grisoscuro {
+	COLOR: #999999
+}
+SPAN.verde {
+	COLOR: #009900
+}
+SPAN.fucsia {
+	COLOR: #ff00ff
+}
+SPAN.naranja {
+	COLOR: #ff8c00
+}
+SPAN.rojo {
+	COLOR: #ff0000
+}
+SPAN.morado {
+	COLOR: #9966ff
+}
+.menu A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu A:hover {
+	COLOR: #ffee00; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #0000ff
+}
+A:visited {
+	COLOR: #0000ff
+}
+A:active {
+	COLOR: #0000ff
+}
+A:hover {
+	COLOR: #0000ff
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Samuel Luciano</dc:creator>
+    <dc:creator>SAM</dc:creator>
+    <dc:title>Pruebin I</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>Pruebin I</title>
+
+<timer><seconds>720</seconds><include-timer>1</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Si desea colocar comentarios de m&amp;#x00FA;ltiples l&amp;#x00ED;neas en su c&amp;#x00F3;digo de programaci&amp;#x00F3;n, &amp;#x00BF;c&amp;#x00FA;al de los siguientes s&amp;#x00ED;mbolos debe utilizar?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>/**/</text><feedback>Correcta! El s&amp;#x00ED;mbolo /**/ se utiliza para colocar comentarios de m&amp;#x00FA;ltiples l&amp;#x00ED;neas comenzando con el s&amp;#x00ED;mbolo /&amp;#x00A8;* y finalizando el comentario con el s&amp;#x00ED;mbolo */.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>//</text><feedback>Incorrecta! El s&amp;#x00ED;mbolo // se utiliza para colocar comentarios de una sola l&amp;#x00ED;nea.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>++</text><feedback>Incorrecta! El s&amp;#x00ED;mbolo ++ es un operador utilizado para sumar 1 a la variable n&amp;#x00FA;merica a la cual se aplique.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>--</text><feedback>Incorrecta! El s&amp;#x00ED;mbolo ++ es un operador utilizado para restar 1 a la variable num&amp;#x00E9;rica a la cual se aplique.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>De los siguientes enunciados propuestos, &amp;#x00BF;cu&amp;#x00E1;l representa correctamente la declaraci&amp;#x00F3;n de una variable de tipo int con el identificador n&amp;#x00FA;mero?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>int numero;</text><feedback>Esta es la forma correcta de declarar una variable, primero se coloca el tipo de dato y posterior el identificador, al finalizar se coloca el s&amp;#x00ED;mbolo ;.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>numero int;</text><feedback>Incorrecta! El identificador de la variable va luego del tipo de dato.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>float numero;</text><feedback>Incorrecta! Este enunciado se utiliza para declarar una variable de tipo float.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>int numero</text><feedback>Incorrecta! Este enunciado, a pesar de ser correcto, carece del s&amp;#x00ED;mbolo ; al finalizar.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>En un lenguaje de programaci&amp;#x00F3;n, el nombre que recibe una variable se conoce como:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Identificador</text><feedback>Correcta! Un identificador es un nombre que le colocamos a las variables para su posterior uso dentro de la codificaci&amp;#x00F3;n.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Variable</text><feedback>Incorrecta! Una variable es un espacio en memoria que almacena un valor del tama&amp;#x00F1;o que indica su tipo de dato.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Palabra reservada</text><feedback>Incorrecta! Las palabras reservadas son palabras utilizadas en cualquier lenguaje de programaci&amp;#x00F3;n que poseen un objetivo o significado espec&amp;#x00ED;fico dentro del mismo.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Constante</text><feedback>Incorrecta! Una constante es una variable declarada con la palabra const delante, para indicar que el valor de la misma no puede ser modificado durante la ejecuci&amp;#x00F3;n del programa.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Si deseamos imprimir en pantalla el mensaje &apos;Hola mundo&apos; que sentencia, de las siguientes, debemos utilizar:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>printf(&quot;Hola mundo&quot;);</text><feedback>Correcta! La funci&amp;#x00F3;n printf es la que nos permite imprimir mensajes en la pantalla de nuestro programa.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>scanf(&quot;Hola mundo&quot;);</text><feedback>Incorrecta! La funci&amp;#x00F3;n scanf se utiliza para leer y almacenar valores introducidos por el usuario mendiante el teclado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>system(&quot;Hola mundo&quot;);</text><feedback>Incorrecta! La funci&amp;#x00F3;n system se utiliza para ejecutar comandos de la l&amp;#x00ED;nea de comandos donde se ejecutar&amp;#x00E1; nuestro programa.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>main(&quot;Hola mundo&quot;);</text><feedback>Incorrecta! La funci&amp;#x00F3;n main es la principal y punto de entrada de nuestro programa.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Si deseamos leer y almacenar un valor introducido por el usuario mediante el teclado, que sentencia de las siguientes, debemos utilizar:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>printf();</text><feedback>Incorrecta! La funci&amp;#x00F3;n printf es la que nos permite imprimir mensajes en la pantalla de nuestro programa.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>scanf();</text><feedback>La funci&amp;#x00F3;n scanf se utiliza para leer y almacenar valores introducidos por el usuario mendiante el teclado.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>system();</text><feedback>Incorrecta! La funci&amp;#x00F3;n system se utiliza para ejecutar comandos de la l&amp;#x00ED;nea de comandos donde se ejecutar&amp;#x00E1; nuestro programa.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>main();</text><feedback>Incorrecta! La funci&amp;#x00F3;n main es la principal y punto de entrada de nuestro programa.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Si ordenamos los tipos de datos num&amp;#x00E9;ricos colocando primero el de menor tamano y el &amp;#x00FA;ltimo el de mayor tamano, &amp;#x00BF;c&amp;#x00FA;al de las siguientes representa este ordenamiento?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>int, float, double</text><feedback>El tipo de dato int posee un tama&amp;#x00F1;o de 2 bytes, el float 4 bytes y el double 8 bytes.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>float, int, double</text><feedback>Incorrecta! El tipo de datos float es mayor que el tipo de dato int.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>double, int, float</text><feedback>Incorrecta! El tipo de dato double es mayor que el tipo de dato int.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>int, double, float</text><feedback>Incorrecta! El tipo de dato double es mayor que el tipo de dato float.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Pruebin I</exercise-subtitle>
+<instructions>Debe elegir una respuesta seg&amp;#x00FA;n sus conocimientos para cada una de las preguntas planteadas a continuaci&amp;#x00F3;n:</instructions>
+<guess-correct></guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Respuestas correctas: </correct-answers>
+<show-answer-caption>Mostrar respuestas</show-answer-caption>
+<include-hint>0</include-hint>
+<include-show-answer>0</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Usted obtuvo: </your-score-is>
+<correct-indicator>Correcto!</correct-indicator>
+<incorrect-indicator>Incorrecto!</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Preguntas completadas hasta el momento: </completed-so-far>
+<exercise-completed>Ha completado correctamente el pruebin.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Se acab&amp;#x00F3; el tiempo l&amp;#x00ED;mite!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Calibri</font-face>
+<font-size>small</font-size>
+<page-bg-color>#0088ec</page-bg-color>
+<title-color>#ffffff</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#004171</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Verificar respuestas!</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>&amp;#x003E;&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;&amp;#x003C;</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Mostrar todas las preguntas</show-all-questions-caption>
+<show-one-by-one-caption>Mostrar preguntas una por una</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

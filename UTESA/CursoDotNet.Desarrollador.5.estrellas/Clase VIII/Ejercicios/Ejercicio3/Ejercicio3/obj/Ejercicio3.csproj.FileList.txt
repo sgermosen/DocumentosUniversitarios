@@ -1,0 +1,5 @@
+bin\Debug\Ejercicio3.exe
+bin\Debug\Ejercicio3.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Ejercicio3.exe
+obj\Debug\Ejercicio3.pdb
