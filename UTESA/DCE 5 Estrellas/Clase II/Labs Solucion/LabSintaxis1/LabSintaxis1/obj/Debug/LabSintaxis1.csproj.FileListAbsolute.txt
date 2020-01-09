@@ -1,5 +1,0 @@
-C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase II\Labs Solucion\LabSintaxis1\LabSintaxis1\obj\Debug\LabSintaxis1.exe
-C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase II\Labs Solucion\LabSintaxis1\LabSintaxis1\obj\Debug\LabSintaxis1.pdb
-C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase II\Labs Solucion\LabSintaxis1\LabSintaxis1\bin\Debug\LabSintaxis1.exe
-C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase II\Labs Solucion\LabSintaxis1\LabSintaxis1\bin\Debug\LabSintaxis1.pdb
-C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase II\Labs Solucion\LabSintaxis1\LabSintaxis1\obj\Debug\ResolveAssemblyReference.cache

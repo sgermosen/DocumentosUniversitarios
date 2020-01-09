@@ -1,5 +1,0 @@
-obj\Debug\ResolveAssemblyReference.cache
-bin\Debug\GenericsLab.exe
-bin\Debug\GenericsLab.pdb
-obj\Debug\GenericsLab.exe
-obj\Debug\GenericsLab.pdb

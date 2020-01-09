@@ -1,7 +1,0 @@
-bin\Debug\LabClases2.exe
-bin\Debug\LabClases2.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\LabClases2.exe
-obj\Debug\LabClases2.pdb
-bin\Debug\\Clases.dll
-bin\Debug\\Clases.pdb

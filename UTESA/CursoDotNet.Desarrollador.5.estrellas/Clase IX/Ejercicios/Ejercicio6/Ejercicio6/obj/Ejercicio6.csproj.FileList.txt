@@ -1,5 +1,0 @@
-obj\Debug\ResolveAssemblyReference.cache
-bin\Debug\Ejercicio6.exe
-bin\Debug\Ejercicio6.pdb
-obj\Debug\Ejercicio6.exe
-obj\Debug\Ejercicio6.pdb

@@ -1,5 +1,0 @@
-bin\Debug\Ejercicio4.exe
-bin\Debug\Ejercicio4.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Ejercicio4.exe
-obj\Debug\Ejercicio4.pdb

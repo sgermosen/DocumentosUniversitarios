@@ -1,5 +1,0 @@
-obj\Debug\ResolveAssemblyReference.cache
-bin\Debug\SemaforosLab.exe
-bin\Debug\SemaforosLab.pdb
-obj\Debug\SemaforosLab.exe
-obj\Debug\SemaforosLab.pdb

@@ -1,5 +1,0 @@
-obj\Debug\ResolveAssemblyReference.cache
-bin\Debug\LabSintaxis7.exe
-bin\Debug\LabSintaxis7.pdb
-obj\Debug\LabSintaxis7.exe
-obj\Debug\LabSintaxis7.pdb

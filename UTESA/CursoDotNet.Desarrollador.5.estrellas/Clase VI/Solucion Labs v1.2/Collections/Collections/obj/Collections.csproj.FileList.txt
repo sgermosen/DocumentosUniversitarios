@@ -1,5 +1,0 @@
-obj\Debug\ResolveAssemblyReference.cache
-bin\Debug\Collections.exe
-bin\Debug\Collections.pdb
-obj\Debug\Collections.exe
-obj\Debug\Collections.pdb

@@ -1,5 +1,0 @@
-bin\Debug\Strings.exe
-bin\Debug\Strings.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Strings.exe
-obj\Debug\Strings.pdb

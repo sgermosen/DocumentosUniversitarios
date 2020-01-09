@@ -1,4 +1,0 @@
-vti_encoding:SR|utf8-nl
-vti_timelastmodified:TR|06 Apr 2001 17:14:32 -0000
-vti_extenderversion:SR|4.0.2.4022
-vti_nexttolasttimemodified:TR|15 Feb 2001 16:41:12 -0000

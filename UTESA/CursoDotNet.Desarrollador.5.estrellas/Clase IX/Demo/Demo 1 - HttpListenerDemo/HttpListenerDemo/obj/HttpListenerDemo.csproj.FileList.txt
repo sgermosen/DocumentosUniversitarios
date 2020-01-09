@@ -1,5 +1,0 @@
-bin\Debug\HttpListenerDemo.exe
-bin\Debug\HttpListenerDemo.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\HttpListenerDemo.exe
-obj\Debug\HttpListenerDemo.pdb

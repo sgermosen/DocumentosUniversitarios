@@ -1,7 +1,0 @@
-C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase IV\Labs\LabClases1\LabClases1\obj\Debug\LabClases1.exe
-C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase IV\Labs\LabClases1\LabClases1\obj\Debug\LabClases1.pdb
-C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase IV\Labs\LabClases1\LabClases1\bin\Debug\LabClases1.exe
-C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase IV\Labs\LabClases1\LabClases1\bin\Debug\LabClases1.pdb
-C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase IV\Labs\LabClases1\LabClases1\bin\Debug\Clases.dll
-C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase IV\Labs\LabClases1\LabClases1\bin\Debug\Clases.pdb
-C:\Documents and Settings\wilson jimenez\Desktop\Various\Mi PC\Curso Interactivo Desarrollador 5 Estrellas\Clase IV\Labs\LabClases1\LabClases1\obj\Debug\ResolveAssemblyReference.cache
