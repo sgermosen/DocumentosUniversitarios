@@ -1,0 +1,58 @@
+--Sql Server 2014 Express Edition
+--Batches are separated by 'go'
+
+--select @@version as 'sql server version' -- estas tres primeras lineas son necesarias unicamente si se esta usando el editor en linea 
+ 
+ create database Farmacia ; --
+ use Farmacia ; -- estas dos lineas que son la creacion de la base de datos y el uso de la misma solo son necesarias si se esta usando el programa de SQL de forma directa
+
+create table Paises 
+(
+    PaisId int identity (1,1),
+    Nombre Varchar (50), 
+    Denominacion varchar (50)
+);
+ 
+create table Clientes
+(
+    ClienteId int identity(1,1),
+    Nombre varchar (25),
+    Apellido varchar (25),
+    Tel     int, 
+    Direcccion varchar (250), 
+    Email varchar (25), 
+    Sexo char(1),
+    Cedula varchar (13),
+    PaisId int 
+);
+ 
+    insert Paises (Nombre,Denominacion) values ('Republica Dominicana','Dominicano');
+    insert Paises (Nombre,Denominacion) values ('Republica Independiente de Punta Cana','Punta Caniense');
+    insert Paises (Nombre,Denominacion) values ('Republica Indepnediente del Cibao','Cibaeño');
+    insert Paises (Nombre,Denominacion) values ('Haiti','Haitiano');
+    insert Paises (Nombre,Denominacion) values ('Venezuela','Venezolanos');
+    
+    select * from paises;
+    select nombre from paises;
+    select * from paises where PaisId=4;
+    select * from paises where nombre = 'Republica Dominicana';
+    select * from paises where nombre like 'la %';
+    select * from paises where nombre like '% re';
+    select * from paises where nombre like '%ait%';
+    
+    insert into Clientes (Nombre, Apellido,Tel, Direcccion,Email, Sexo, Cedula,PaisId )
+	values               ( 'Juan','Almonte', 849333333, 'Calle Primera', 'sg@gmail.com', 'M', '223000345',1);
+	insert into Clientes (Nombre, Apellido,Tel, Direcccion,Email, Sexo, Cedula,PaisId )
+	values               ( 'Cristina','Almonte', 849333333, 'Calle Primera', 'sg@gmail.com', 'F', '223000345',1);
+insert into Clientes (Nombre, Apellido,Tel, Direcccion,Email, Sexo, Cedula,PaisId )
+	values               ( 'Pedro','Almonte', 849333333, 'Calle Primera', 'sg@gmail.com', 'I', '223000345',1);
+insert into Clientes (Nombre, Apellido,Tel, Direcccion,Email, Sexo, Cedula,PaisId )
+	values               ( 'Carlos','Almonte', 849333333, 'Calle Primera', 'sg@gmail.com', 'M', '223000345',1);
+insert into Clientes (Nombre, Apellido,Tel, Direcccion,Email, Sexo, Cedula,PaisId )
+	values               ( 'Pereira','Almonte', 849333333, 'Calle Primera', 'sg@gmail.com', 'M', '223000345',1);
+insert into Clientes (Nombre, Apellido,Tel, Direcccion,Email, Sexo, Cedula,PaisId )
+	values               ( 'Cristian','Almonte', 849333333, 'Calle Primera', 'sg@gmail.com', 'M', '223000345',1);
+
+
+        
+     
